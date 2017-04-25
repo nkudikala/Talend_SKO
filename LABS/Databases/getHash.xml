@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='240' id='1' V240='4' databaseType='mysql' databaseName='gethash' urlPattern='jdbc:mysql://${hostPort}/${databaseName}?zeroDateTimeBehavior=convertToNull&amp;transformedBitIsBoolean=false&amp;tinyInt1isBit=false' userName='talend' password='talend' hostPort='localhost:3306' driverClassName='com.mysql.jdbc.Driver' xaDataSourceClassName='com.mysql.jdbc.jdbc2.optional.MysqlXADataSource' hibernateDialect='org.hibernate.dialect.MySQLDialect' structDir='Structures/getHash' defaultPrimaryKeyColumns='-1' V1='4' name='getHash' incarnation='10'>
+</root>

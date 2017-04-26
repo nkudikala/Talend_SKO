@@ -5,17 +5,17 @@
     <contextParameter comment="" name="extract_time_stamp" prompt="extract_time_stamp?" promptNeeded="false" type="id_Date" value=""/>
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="true" type="id_String" value=""/>
     <contextParameter comment="" name="hdfs_landing_dir" prompt="hdfs_landing_dir?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="dev_hdp_JobHistory" prompt="dev_hdp_JobHistory?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="dc01pvtlmndl02.molina.mhc:10020"/>
-    <contextParameter comment="" name="dev_hdp_JobHistroyPrin" prompt="dev_hdp_JobHistroyPrin?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="jhs/_HOST@MOLINA.MHC"/>
-    <contextParameter comment="" name="dev_hdp_JTOrRMPrin" prompt="dev_hdp_JTOrRMPrin?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="rm/_HOST@MOLINA.MHC"/>
-    <contextParameter comment="" name="dev_hdp_KeyTab" prompt="dev_hdp_KeyTab?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="C:/Users/Mohammad/keytab/DEV_new/Mohammad.keytab"/>
-    <contextParameter comment="" name="dev_hdp_NameNodePrin" prompt="dev_hdp_NameNodePrin?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="nn/_HOST@MOLINA.MHC"/>
-    <contextParameter comment="" name="dev_hdp_NameNodeUri" prompt="dev_hdp_NameNodeUri?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="hdfs://DEVDLHDP01"/>
-    <contextParameter comment="" name="dev_hdp_Principal" prompt="dev_hdp_Principal?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="Mohammad@MOLINA.MHC"/>
-    <contextParameter comment="" name="dev_hdp_ResourceManager" prompt="dev_hdp_ResourceManager?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="dc01pvtlmndl01.molina.mhc:8050"/>
-    <contextParameter comment="" name="dev_hdp_ResourceManagerScheduler" prompt="dev_hdp_ResourceManagerScheduler?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="dc01pvtlmndl01.molina.mhc:8030"/>
-    <contextParameter comment="" name="dev_hdp_StagingDirectory" prompt="dev_hdp_StagingDirectory?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="/user"/>
-    <contextParameter comment="" name="hive_database" prompt="hive_database?" promptNeeded="true" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="default"/>
+    <contextParameter comment="" name="dev_hdp_JobHistory" prompt="dev_hdp_JobHistory?" promptNeeded="false" type="id_String" value="dc01pvtlmndl02.molina.mhc:10020"/>
+    <contextParameter comment="" name="dev_hdp_JobHistroyPrin" prompt="dev_hdp_JobHistroyPrin?" promptNeeded="false" type="id_String" value="jhs/_HOST@MOLINA.MHC"/>
+    <contextParameter comment="" name="dev_hdp_JTOrRMPrin" prompt="dev_hdp_JTOrRMPrin?" promptNeeded="false" type="id_String" value="rm/_HOST@MOLINA.MHC"/>
+    <contextParameter comment="" name="dev_hdp_KeyTab" prompt="dev_hdp_KeyTab?" promptNeeded="false" type="id_String" value="C:/Users/Mohammad/keytab/DEV_new/Mohammad.keytab"/>
+    <contextParameter comment="" name="dev_hdp_NameNodePrin" prompt="dev_hdp_NameNodePrin?" promptNeeded="false" type="id_String" value="nn/_HOST@MOLINA.MHC"/>
+    <contextParameter comment="" name="dev_hdp_NameNodeUri" prompt="dev_hdp_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://DEVDLHDP01"/>
+    <contextParameter comment="" name="dev_hdp_Principal" prompt="dev_hdp_Principal?" promptNeeded="false" type="id_String" value="Mohammad@MOLINA.MHC"/>
+    <contextParameter comment="" name="dev_hdp_ResourceManager" prompt="dev_hdp_ResourceManager?" promptNeeded="false" type="id_String" value="dc01pvtlmndl01.molina.mhc:8050"/>
+    <contextParameter comment="" name="dev_hdp_ResourceManagerScheduler" prompt="dev_hdp_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="dc01pvtlmndl01.molina.mhc:8030"/>
+    <contextParameter comment="" name="dev_hdp_StagingDirectory" prompt="dev_hdp_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
+    <contextParameter comment="" name="hive_database" prompt="hive_database?" promptNeeded="true" type="id_String" value="default"/>
     <contextParameter comment="" name="srcName" prompt="srcName?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="tblName" prompt="tblName?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="hdfs_transform_dir" prompt="hdfs_transform_dir?" promptNeeded="false" type="id_String" value=""/>
@@ -32,17 +32,17 @@
     <contextParameter comment="" name="extract_time_stamp" prompt="extract_time_stamp?" promptNeeded="false" type="id_Date" value=""/>
     <contextParameter comment="" name="job_name" prompt="job_name?" promptNeeded="true" type="id_String" value=""/>
     <contextParameter comment="" name="hdfs_landing_dir" prompt="hdfs_landing_dir?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="dev_hdp_JobHistory" prompt="dev_hdp_JobHistory?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="dc01pvtlmndl02.molina.mhc:10020"/>
-    <contextParameter comment="" name="dev_hdp_JobHistroyPrin" prompt="dev_hdp_JobHistroyPrin?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="jhs/_HOST@MOLINA.MHC"/>
-    <contextParameter comment="" name="dev_hdp_JTOrRMPrin" prompt="dev_hdp_JTOrRMPrin?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="rm/_HOST@MOLINA.MHC"/>
-    <contextParameter comment="" name="dev_hdp_KeyTab" prompt="dev_hdp_KeyTab?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="/opt/security/keytabs/HSS-EDL-DEV.keytab"/>
-    <contextParameter comment="" name="dev_hdp_NameNodePrin" prompt="dev_hdp_NameNodePrin?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="nn/_HOST@MOLINA.MHC"/>
-    <contextParameter comment="" name="dev_hdp_NameNodeUri" prompt="dev_hdp_NameNodeUri?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="hdfs://DEVDLHDP01"/>
-    <contextParameter comment="" name="dev_hdp_Principal" prompt="dev_hdp_Principal?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="HSS-EDL-DEV@MOLINA.MHC"/>
-    <contextParameter comment="" name="dev_hdp_ResourceManager" prompt="dev_hdp_ResourceManager?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="dc01pvtlmndl01.molina.mhc:8050"/>
-    <contextParameter comment="" name="dev_hdp_ResourceManagerScheduler" prompt="dev_hdp_ResourceManagerScheduler?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="dc01pvtlmndl01.molina.mhc:8030"/>
-    <contextParameter comment="" name="dev_hdp_StagingDirectory" prompt="dev_hdp_StagingDirectory?" promptNeeded="false" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="/user"/>
-    <contextParameter comment="" name="hive_database" prompt="hive_database?" promptNeeded="true" repositoryContextId="_7Sn70PmPEeaRYrAnZwNHRg" type="id_String" value="default"/>
+    <contextParameter comment="" name="dev_hdp_JobHistory" prompt="dev_hdp_JobHistory?" promptNeeded="false" type="id_String" value="dc01pvtlmndl02.molina.mhc:10020"/>
+    <contextParameter comment="" name="dev_hdp_JobHistroyPrin" prompt="dev_hdp_JobHistroyPrin?" promptNeeded="false" type="id_String" value="jhs/_HOST@MOLINA.MHC"/>
+    <contextParameter comment="" name="dev_hdp_JTOrRMPrin" prompt="dev_hdp_JTOrRMPrin?" promptNeeded="false" type="id_String" value="rm/_HOST@MOLINA.MHC"/>
+    <contextParameter comment="" name="dev_hdp_KeyTab" prompt="dev_hdp_KeyTab?" promptNeeded="false" type="id_String" value="/opt/security/keytabs/HSS-EDL-DEV.keytab"/>
+    <contextParameter comment="" name="dev_hdp_NameNodePrin" prompt="dev_hdp_NameNodePrin?" promptNeeded="false" type="id_String" value="nn/_HOST@MOLINA.MHC"/>
+    <contextParameter comment="" name="dev_hdp_NameNodeUri" prompt="dev_hdp_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://DEVDLHDP01"/>
+    <contextParameter comment="" name="dev_hdp_Principal" prompt="dev_hdp_Principal?" promptNeeded="false" type="id_String" value="HSS-EDL-DEV@MOLINA.MHC"/>
+    <contextParameter comment="" name="dev_hdp_ResourceManager" prompt="dev_hdp_ResourceManager?" promptNeeded="false" type="id_String" value="dc01pvtlmndl01.molina.mhc:8050"/>
+    <contextParameter comment="" name="dev_hdp_ResourceManagerScheduler" prompt="dev_hdp_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="dc01pvtlmndl01.molina.mhc:8030"/>
+    <contextParameter comment="" name="dev_hdp_StagingDirectory" prompt="dev_hdp_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
+    <contextParameter comment="" name="hive_database" prompt="hive_database?" promptNeeded="true" type="id_String" value="default"/>
     <contextParameter comment="" name="srcName" prompt="srcName?" promptNeeded="true" type="id_String" value=""/>
     <contextParameter comment="" name="tblName" prompt="tblName?" promptNeeded="true" type="id_String" value=""/>
     <contextParameter comment="" name="hdfs_transform_dir" prompt="hdfs_transform_dir?" promptNeeded="false" type="id_String" value=""/>
@@ -55,8 +55,8 @@
     <contextParameter comment="" name="hive_table" prompt="hive_table?" promptNeeded="false" type="id_String" value=""/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="736" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="992" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="982" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="1323" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -110,7 +110,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/talend-studio_6.3.1/Talend-Tools-Studio-20161216_1026-V6.3.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/Administrator/workspace/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -158,11 +158,14 @@
     <routinesParameter id="_6t8-YLcpEea8B7-8JTiZsA" name="TalendDate"/>
     <routinesParameter id="_6uP5ULcpEea8B7-8JTiZsA" name="TalendString"/>
     <routinesParameter id="_UfFLIO2FEeakwsteFbUNDg" name="SQLike"/>
+    <routinesParameter id="_ewnWgOgNEeafdo9ywNsUdA" name="DQTechnical"/>
+    <routinesParameter id="_ewOU8OgNEeafdo9ywNsUdA" name="DataMasking"/>
+    <routinesParameter id="_ewfasOgNEeafdo9ywNsUdA" name="DataQualityDependencies"/>
+    <routinesParameter id="_ewbwUOgNEeafdo9ywNsUdA" name="DataQuality"/>
+    <routinesParameter id="_ewlhUOgNEeafdo9ywNsUdA" name="DqStringHandling"/>
   </parameters>
   <node componentName="tHDFSConnection" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-320" posY="-736">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSConnection_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_TCbqoPYPEeanNu_FIKDx_A" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="HDP_2_4"/>
     <elementParameter field="HADOOP_DISTRIBUTION" name="HDFS" value=""/>
@@ -194,8 +197,6 @@
   </node>
   <node componentName="tHBaseConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="-736">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHBaseConnection_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_TDpyoPYPEeanNu_FIKDx_A" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
     <elementParameter field="CLOSED_LIST" name="HBASE_VERSION" value="HDP_2_4"/>
     <elementParameter field="HADOOP_DISTRIBUTION" name="HBASE" value=""/>
@@ -661,8 +662,6 @@
   </node>
   <node componentName="tHDFSOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="-384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSOutput_2" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_y7o24N2wEeagFupkux6EZg" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHDFSConnection_1"/>
@@ -2145,7 +2144,7 @@
     <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
     <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
     <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogCatcher_1">
       <column key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
@@ -3135,8 +3134,6 @@
   </node>
   <node componentName="tHDFSRowCount" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="0">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSRowCount_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_y7o24N2wEeagFupkux6EZg" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHDFSConnection_1"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS" show="false"/>
@@ -3181,8 +3178,6 @@
   </node>
   <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-544" posY="-736">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMSSqlConnection_2" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_MvyU4LATEeaGKcGkYPg95Q" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;DC01DSSDBPC02&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
@@ -3426,8 +3421,6 @@
   </node>
   <node componentName="tHDFSRowCount" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSRowCount_2" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_y7o24N2wEeagFupkux6EZg" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHDFSConnection_1"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS" show="false"/>

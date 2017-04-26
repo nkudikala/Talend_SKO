@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2017-04-26T08:01:40.402-0700">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2017-04-26T09:01:06.241-0700">
   <deletedItems id="_bpIo8SqMEeeMEs4_VfEaBw" path="" type="STRUCTURES"/>
   <deletedItems id="_cA1XQCqMEeeMEs4_VfEaBw" path="Jobs/Job_TDM_Validation" type="MAPS"/>
+  <deletedItems id="_23YXYCqWEeeQt8oV0pTzIw" path="" type="STRUCTURES"/>
 </recyclebin:RecycleBin>

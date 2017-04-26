@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x1463e76de67' V1='4' name='Siemens_input' incarnation='630'>
+  <rootElem t='167' id='2' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Root'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_ispresent='true' V1='4' name='A_Record'>
+      <structNode t='150' idref='1'/>
+      <delimInitiator>A</delimInitiator>
+      <child t='167' id='4' V167='21' V283='1' occurMaxTimes='1' minSize='1' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Text'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='5' V167='21' V283='1' occurMaxTimes='1' minSize='1' maxSize='5' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Number'>
+        <structNode t='150' idref='1'/>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='6' V167='21' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_ispresent='true' V1='4' name='B_Record'>
+        <structNode t='150' idref='1'/>
+        <delimInitiator>B</delimInitiator>
+        <child t='167' id='7' V167='21' V283='1' occurMaxTimes='1' minSize='1' maxSize='15' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Text'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='8' V167='21' V283='1' occurMaxTimes='1' minSize='1' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Code'>
+          <structNode t='150' idref='1'/>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='9' V167='21' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='C_Record'>
+          <structNode t='150' idref='1'/>
+          <delimInitiator>C</delimInitiator>
+          <loop>Equal(elem$/Root/Row/Record_Type,Constant([value="C",dataType="2"],))</loop>
+          <child t='167' id='10' V167='21' V283='1' occurMaxTimes='1' minSize='1' maxSize='5' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Quantity'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='11' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Filler'>
+            <structNode t='150' idref='1'/>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='12' V167='21' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_ispresent='true' V1='4' name='D_Record'>
+            <structNode t='150' idref='1'/>
+            <delimInitiator>D</delimInitiator>
+            <child t='167' id='13' V167='21' V283='1' occurMaxTimes='1' minSize='1' maxSize='5' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Unit_Price'>
+              <structNode t='150' idref='1'/>
+            </child>
+            <child t='167' id='14' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Filler'>
+              <structNode t='150' idref='1'/>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+        </child>
+      </child>
+    </child>
+    <child t='167' id='15' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_ispresent='true' V1='4' name='Z_Record'>
+      <structNode t='150' idref='1'/>
+      <delimInitiator>Z</delimInitiator>
+      <child t='167' id='16' V167='21' V283='1' occurMaxTimes='1' minSize='1' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Text'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='17' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Filler'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+  </rootElem>
+  <defaultRep t='173' id='18' V170='10' V693='1' newLineType='2' newLine='\r' delimiter=',' positional='true' structName='Structures/multiple_record_input.xml' V690='1' padOutput='true' trimInput='true' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='Flat'>
+  </defaultRep>
+  <child t='162' id='19' V1='4' name='Representations'>
+    <child t='173' idref='18'/>
+    <child t='172' id='20' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    </child>
+  </child>
+  <child t='165' id='21' V1='4' name='Document Bindings'>
+    <child t='166' id='22' V166='5' docType='1' docReposPath='/WT_TDM_001/Sample Data/multiple_record_input/multi_record_type.txt' V1='4' name='/Root'>
+      <elemNode t='167' idref='2'/>
+      <structNode t='150' idref='1'/>
+    </child>
+  </child>
+</root>

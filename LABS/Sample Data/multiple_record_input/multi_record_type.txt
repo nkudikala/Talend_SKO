@@ -1,0 +1,8 @@
+ATexthdr   00001
+BTextdetail1    01
+C00010
+D00999
+BTextdetail2    02
+C00001
+D00100
+ZTextFooter  

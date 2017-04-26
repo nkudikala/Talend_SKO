@@ -10,5 +10,6 @@ Maps/validation_execution_status.xml,com.oaklandsw.base,references.1,Structures/
 Namespace Containers,com.oaklandsw.base,order,4
 Reports,com.oaklandsw.base,order,7
 Sample Data,com.oaklandsw.base,order,6
+Sample Data/multiple_record_input/multi_record_type.txt,com.oaklandsw.transform,repNodeType,173
 Structures,com.oaklandsw.base,order,0
 Structures/multiple_record_input.xml,com.oaklandsw.base,references.0,Sample Data/multiple_record_input/multi_record_type.txt

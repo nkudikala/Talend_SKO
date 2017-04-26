@@ -1,44 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/multiple_record_input.xml' outStruct='Structures/multiple_record_output.xml' inputRep='173' outputRep='173' nextMap='' inputStructUserName='multiple_record_input' outputStructUserName='multiple_record_output' V1='4' name='Siemens_map' incarnation='7573'>
-  <inputMapElem t='200' id='2' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
+<root t='190' id='1' V190='11' inStruct='Structures/multiple_record_input.xml' outStruct='Structures/multiple_record_output.xml' inputRep='173' outputRep='173' nextMap='' inputStructUserName='multiple_record_input' outputStructUserName='multiple_record_output' V1='4' name='Siemens_map' incarnation='7989'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='33' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
     <mapNode t='190' idref='1'/>
-    <child t='200' id='3' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='A_Record'>
+    <child t='200' id='3' V200='8' input='true' structElemExists='true' usedCount='27' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='A_Record'>
       <mapNode t='190' idref='1'/>
       <delimInitiator>A</delimInitiator>
-      <child t='200' id='4' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='1' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Text'>
+      <child t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='1' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Text'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='5' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='1' maxSize='5' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' modifiedFromParent_emit='true' V1='4' name='Number'>
+      <child t='200' id='5' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='1' maxSize='5' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' modifiedFromParent_emit='true' V1='4' name='Number'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>\n</delimTerminator>
+        <validate>CondValidateReport([severity="4",message="Invalid A Record Number",number="5"],Equal(in$/Root/A_Record/Number,Constant([value="2",dataType="2"],)),in$/Root/A_Record/Number)</validate>
       </child>
-      <child t='200' id='6' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='B_Record'>
+      <child t='200' id='6' V200='8' input='true' structElemExists='true' usedCount='22' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='B_Record'>
         <mapNode t='190' idref='1'/>
         <delimInitiator>B</delimInitiator>
-        <child t='200' id='7' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='1' maxSize='15' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Text'>
+        <child t='200' id='7' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='1' maxSize='15' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Text'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='8' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='1' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Code'>
+        <child t='200' id='8' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='1' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Code'>
           <mapNode t='190' idref='1'/>
           <delimTerminator>\n</delimTerminator>
         </child>
-        <child t='200' id='9' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='C_Record'>
+        <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='C_Record'>
           <mapNode t='190' idref='1'/>
           <delimInitiator>C</delimInitiator>
-          <child t='200' id='10' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='1' maxSize='5' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Quantity'>
+          <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='1' maxSize='5' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Quantity'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='11' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Filler'>
+          <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Filler'>
             <mapNode t='190' idref='1'/>
             <delimTerminator>\n</delimTerminator>
           </child>
-          <child t='200' id='12' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='D_Record'>
+          <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='D_Record'>
             <mapNode t='190' idref='1'/>
             <delimInitiator>D</delimInitiator>
-            <child t='200' id='13' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='1' maxSize='5' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' V1='4' name='Unit_Price'>
+            <child t='200' id='13' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='1' maxSize='5' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' V1='4' name='Unit_Price'>
               <mapNode t='190' idref='1'/>
             </child>
-            <child t='200' id='14' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Filler'>
+            <child t='200' id='14' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Filler'>
               <mapNode t='190' idref='1'/>
               <delimTerminator>\n</delimTerminator>
             </child>
@@ -46,78 +47,78 @@
         </child>
       </child>
     </child>
-    <child t='200' id='15' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Z_Record'>
+    <child t='200' id='15' V200='8' input='true' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Z_Record'>
       <mapNode t='190' idref='1'/>
       <delimInitiator>Z</delimInitiator>
-      <child t='200' id='16' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='1' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Text'>
+      <child t='200' id='16' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='1' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Text'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='17' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Filler'>
+      <child t='200' id='17' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Filler'>
         <mapNode t='190' idref='1'/>
       </child>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='18' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
+  <outputMapElem t='200' id='18' V200='8' structElemExists='true' usedCount='24' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/Root,{Filter},{Sort Keys},{Contexts})</loop>
-    <child t='200' id='19' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='AB_Record'>
+    <child t='200' id='19' V200='8' structElemExists='true' usedCount='16' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='AB_Record'>
       <mapNode t='190' idref='1'/>
       <delimInitiator>AB</delimInitiator>
       <emit>IsPresent(in$/Root/A_Record)</emit>
-      <child t='200' id='20' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='1' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Text'>
+      <child t='200' id='20' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='1' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Text'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>\n</delimTerminator>
         <value>in$/Root/A_Record/Text</value>
       </child>
-      <child t='200' id='21' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='AC_Record'>
+      <child t='200' id='21' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='AC_Record'>
         <mapNode t='190' idref='1'/>
         <delimInitiator>AC</delimInitiator>
         <loop>SimpleLoop(in$/Root/A_Record/B_Record,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/Root/A_Record/B_Record/C_Record,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/Root/A_Record/B_Record/C_Record/D_Record,{Filter},{Sort Keys},{Contexts})))))</loop>
-        <child t='200' id='22' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='1' maxSize='15' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Text'>
+        <child t='200' id='22' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='1' maxSize='15' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Text'>
           <mapNode t='190' idref='1'/>
           <value>in$/Root/A_Record/B_Record/Text</value>
         </child>
-        <child t='200' id='23' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='5' maxSize='5' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Quantity'>
+        <child t='200' id='23' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='5' maxSize='5' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Quantity'>
           <mapNode t='190' idref='1'/>
           <value>in$/Root/A_Record/B_Record/C_Record/Quantity</value>
         </child>
-        <child t='200' id='24' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='5' maxSize='5' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Total_Price'>
+        <child t='200' id='24' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='5' maxSize='5' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Total_Price'>
           <mapNode t='190' idref='1'/>
           <value>Multiply(in$/Root/A_Record/B_Record/C_Record/Quantity,in$/Root/A_Record/B_Record/C_Record/D_Record/Unit_Price)</value>
         </child>
-        <child t='200' id='25' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='1' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Code_text'>
+        <child t='200' id='25' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='1' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Code_text'>
           <mapNode t='190' idref='1'/>
           <delimTerminator>\n</delimTerminator>
           <value>in$/Root/A_Record/B_Record/Code</value>
         </child>
       </child>
     </child>
-    <child t='200' id='26' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='AZ_Record'>
+    <child t='200' id='26' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='AZ_Record'>
       <mapNode t='190' idref='1'/>
       <delimInitiator>AZ</delimInitiator>
       <emit>IsPresent(in$/Root/Z_Record)</emit>
-      <child t='200' id='27' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Text'>
+      <child t='200' id='27' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Text'>
         <mapNode t='190' idref='1'/>
         <value>in$/Root/Z_Record/Text</value>
       </child>
-      <child t='200' id='28' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='7' maxSize='7' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Total_Value'>
+      <child t='200' id='28' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Total_Value'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>\n</delimTerminator>
         <value>AgSum(Multiply(SimpleLoop(in$/Root/A_Record/B_Record,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/Root/A_Record/B_Record/C_Record,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/Root/A_Record/B_Record/C_Record/D_Record,{Filter},{Sort Keys},{Contexts}))))),in$/Root/A_Record/B_Record/C_Record/D_Record/Unit_Price,in$/Root/A_Record/B_Record/C_Record/Quantity))</value>
       </child>
     </child>
   </outputMapElem>
-  <inputRepRuntime t='693' id='29' V693='1' newLineType='2' newLine='\r' delimiter=',' positional='true' structName='Structures/multiple_record_input.xml' V690='1' padOutput='true' trimInput='true'>
+  <inputRepRuntime t='693' id='37' V693='1' newLineType='2' newLine='\r' delimiter=',' positional='true' structName='Structures/multiple_record_input.xml' V690='1' padOutput='true' trimInput='true'>
   </inputRepRuntime>
-  <outputRepRuntime t='693' id='30' V693='1' newLineType='2' newLine='\n' delimiter=',' positional='true' structName='Structures/multiple_record_output.xml' V690='1' padOutput='true' trimInput='true'>
+  <outputRepRuntime t='693' id='38' V693='1' newLineType='2' newLine='\n' delimiter=',' positional='true' structName='Structures/multiple_record_output.xml' V690='1' padOutput='true' trimInput='true'>
   </outputRepRuntime>
   <valueSets></valueSets>
-  <inputXmlRepRuntime t='692' id='31' V692='1' V690='1'>
+  <inputXmlRepRuntime t='692' id='39' V692='1' V690='1'>
   </inputXmlRepRuntime>
-  <outputXmlRepRuntime t='692' id='32' V692='1' V690='1'>
+  <outputXmlRepRuntime t='692' id='40' V692='1' V690='1'>
   </outputXmlRepRuntime>
   <child t='165' id='33' V1='4' name='Document Bindings'>
-    <child t='166' id='34' V166='5' docType='1' docReposPath='/TDM/Sample Data/Maps/multiple_record_type_input/multi_record_type.txt' V1='4' name='in$/Root'>
+    <child t='166' id='34' V166='5' docType='1' docReposPath='/LABS/Sample Data/multiple_record_input/multi_record_type.txt' V1='4' name='in$/Root'>
       <elemNode t='200' idref='2'/>
     </child>
     <child t='166' id='35' V166='5' docType='2' V1='4' name='out$/Root'>

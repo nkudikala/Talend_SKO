@@ -177,7 +177,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1" show="false"/>
     <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
     <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#xA;StringWriter sw = new StringWriter();&#xA;      "/>
-    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="ExecutionStatus execstatus=&#xA;((ExecutionStatus)globalMap.get(&quot;tHMap_1_EXECUTION_STATUS&quot;));&#xA;execstatus.exportToXml(sw);&#xA;String s = sw.toString();&#xA;output_row.object = s;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="ExecutionStatus execstatus = ((ExecutionStatus)globalMap.get(&quot;tHMap_1_EXECUTION_STATUS&quot;));&#xA;execstatus.exportToXml(sw);&#xA;String s = sw.toString();&#xA;output_row.object = s;"/>
     <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#xA;      "/>
     <elementParameter field="CHECK" name="Version_V2_0" value="false" show="false"/>
     <elementParameter field="CHECK" name="Version_V3_2" value="false" show="false"/>

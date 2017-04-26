@@ -182,7 +182,7 @@
     <elementParameter field="CHECK" name="Version_V2_0" value="false" show="false"/>
     <elementParameter field="CHECK" name="Version_V3_2" value="false" show="false"/>
     <elementParameter field="CHECK" name="Version_V4.0" value="true" show="false"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.io.StringWriter;&#xA;import org.talend.tranform.runtime.api.ExecutionStatus;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.io.StringWriter;&#xA;import org.talend.transform.runtime.api.ExecutionStatus;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaFlex_1">
       <column comment="" key="false" length="-1" name="object" nullable="true" pattern="" precision="-1" sourceType="" type="id_Object" originalLength="-1" usefulColumn="true"/>
@@ -195,8 +195,8 @@
     <elementParameter field="HMAP_PATH" name="HMAP_PATH" value="&quot;Jobs/Job_TDM_Validation/tHMap_2&quot;"/>
     <elementParameter field="RADIO" name="SOURCE_AS_MAP" value="true"/>
     <elementParameter field="RADIO" name="SOURCE_AS_STRING" value="false" show="false"/>
-    <elementParameter field="RADIO" name="AS_MAP" value="true" show="false"/>
-    <elementParameter field="RADIO" name="AS_STRING" value="false"/>
+    <elementParameter field="RADIO" name="AS_MAP" value="false" show="false"/>
+    <elementParameter field="RADIO" name="AS_STRING" value="true"/>
     <elementParameter field="RADIO" name="AS_BYTEARRAY" value="false"/>
     <elementParameter field="RADIO" name="AS_INPUTSTREAM" value="false"/>
     <elementParameter field="RADIO" name="AS_DOCUMENT" value="false"/>

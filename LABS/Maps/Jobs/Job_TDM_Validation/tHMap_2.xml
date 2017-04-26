@@ -1,11 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Builtin:Structures/Status/ExecutionStatus.xml' outStruct='Structures/validation_tlogrow_schema.xml' outputRep='172' nextMap='' inputStructUserName='ExecutionStatus' outputStructUserName='validation_tlogrow_schema' V1='4' name='tHMap_2' incarnation='81'>
-  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ExecutionStatus'>
+<root t='190' id='1' V190='11' inStruct='Builtin:Structures/Status/ExecutionStatus.xml' outStruct='Structures/validation_tlogrow_schema.xml' outputRep='172' nextMap='' inputUseMapForDocs='true' inputStructUserName='ExecutionStatus' outputStructUserName='validation_tlogrow_schema' V1='4' name='tHMap_2' incarnation='388'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ExecutionStatus'>
     <mapNode t='190' idref='1'/>
+    <child t='200' id='9' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OverallSeverity'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='10' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OverallSeverityName'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Builtin:Structures/Status/StatusItem.xml' V281='13' V1='4' name='StatusItems'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='12' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SequenceNumber'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='13' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Severity'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='14' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SeverityName'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='15' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Code'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='16' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='StructureValidationCode'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='17' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CodeMessage'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='18' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Side'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='19' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SideName'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='20' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ValidateCode'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='21' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LineNumber'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='22' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ColumnNumber'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='23' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ByteOffset'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='24' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SystemId'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='25' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PublicId'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='26' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Builtin:Structures/Status/DescriptionItem.xml' V281='13' V1='4' name='DescriptionItems'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='27' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ContainedItems'>
+        <mapNode t='190' idref='1'/>
+        <useChildrenOf t='200' idref='11'/>
+      </child>
+    </child>
+    <child t='200' id='28' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Builtin:Structures/Status/Section.xml' V281='13' V1='4' name='Section'>
+      <mapNode t='190' idref='1'/>
+    </child>
   </inputMapElem>
-  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='schema'>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='12' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='schema'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/ExecutionStatus,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='29' V200='8' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='column'>
+      <mapNode t='190' idref='1'/>
+      <loop>SimpleLoop(in$/ExecutionStatus/StatusItems,{Filter},{Sort Keys},{Contexts})</loop>
+      <child t='200' id='30' V200='8' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='31' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='comment'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ExecutionStatus/StatusItems/SeverityName</value>
+        </child>
+        <child t='200' id='32' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='default'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ExecutionStatus/StatusItems/Code</value>
+        </child>
+        <child t='200' id='33' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='key'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ExecutionStatus/StatusItems/StructureValidationCode</value>
+        </child>
+        <child t='200' id='34' V200='8' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='label'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='35' V200='8' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='length'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='36' V200='8' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='nullable'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='37' V200='8' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='originalDbColumnName'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='38' V200='8' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='originalLength'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='39' V200='8' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='pattern'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='40' V200='8' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='precision'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='41' V200='8' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='talendType'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='42' V200='8' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type'>
+          <mapNode t='190' idref='1'/>
+        </child>
+      </child>
+    </child>
   </outputMapElem>
   <outputRepRuntime t='692' id='4' V692='1' unnamedElemsNamespace='1' V690='1'>
     <namespaceContainers t='220' ref='Namespace Containers/validation_tlogrow_schema.xml'/>
@@ -13,7 +120,7 @@
   <valueSets></valueSets>
   <outputXmlRepRuntime t='692' idref='4'/>
   <child t='165' id='5' V1='4' name='Document Bindings'>
-    <child t='166' id='6' V166='5' docType='1' V1='4' name='in$/ExecutionStatus'>
+    <child t='166' id='6' V166='5' docType='1' docReposPath='/Builtin/Structures/Status/ExecutionStatus.xml' V1='4' name='in$/ExecutionStatus'>
       <elemNode t='200' idref='2'/>
     </child>
     <child t='166' id='7' V166='5' docType='2' docReposPath='/LABS/Sample Data/validation_tlogrow_schema/validation_tlogrow_schema' V1='4' name='out$/schema'>

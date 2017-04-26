@@ -8,6 +8,8 @@ Maps/Jobs/Job_TDM_Validation/tHMap_2.xml,com.oaklandsw.base,references.0,Structu
 Maps/Jobs/Job_TDM_Validation/tHMap_2.xml,com.oaklandsw.base,references.1,/Builtin/Structures/Status/ExecutionStatus.xml
 Maps/PurchaseOrderPayPal.xml,com.oaklandsw.base,references.0,Structures/PayPalPO.xml
 Maps/PurchaseOrderPayPal.xml,com.oaklandsw.base,references.1,Structures/namevalue.xml
+Maps/aao_import.xml,com.oaklandsw.base,references.0,Structures/aa0.xml
+Maps/aao_import.xml,com.oaklandsw.base,references.1,/Builtin/Structures/Executable Structures/Importer.xml
 Maps/validation_execution_status.xml,com.oaklandsw.base,references.0,Structures/multiple_record_output.xml
 Maps/validation_execution_status.xml,com.oaklandsw.base,references.1,Structures/multiple_record_input.xml
 Namespace Containers,com.oaklandsw.base,order,4

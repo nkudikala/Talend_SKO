@@ -152,6 +152,23 @@
       <relatedItems xmi:id="_bZ2MoCqIEeeMEs4_VfEaBw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_AgXkgCqPEeeMEs4_VfEaBw" id="_cA1XQCqMEeeMEs4_VfEaBw" version="Latest" type="mapper"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_7gUXwCqeEeeQt8oV0pTzIw">
+      <baseItem xmi:id="_7gUXwSqeEeeQt8oV0pTzIw" id="_24894CO1EeehLI1tZPiPYw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_7gUXwiqeEeeQt8oV0pTzIw" id="_7Sn70PmPEeaRYrAnZwNHRg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_7gUXwyqeEeeQt8oV0pTzIw" id="_y7o24N2wEeagFupkux6EZg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_7gUXxCqeEeeQt8oV0pTzIw" id="_TDpyoPYPEeanNu_FIKDx_A" version="Latest" type="property"/>
+      <relatedItems xmi:id="_7gUXxSqeEeeQt8oV0pTzIw" id="_TCbqoPYPEeanNu_FIKDx_A" version="Latest" type="property"/>
+      <relatedItems xmi:id="_7gUXxiqeEeeQt8oV0pTzIw" id="_MvyU4LATEeaGKcGkYPg95Q" version="Latest" type="property"/>
+      <relatedItems xmi:id="_7gUXxyqeEeeQt8oV0pTzIw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7gUXyCqeEeeQt8oV0pTzIw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7gUXySqeEeeQt8oV0pTzIw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7gUXyiqeEeeQt8oV0pTzIw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7gUXyyqeEeeQt8oV0pTzIw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7gUXzCqeEeeQt8oV0pTzIw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7gUXzSqeEeeQt8oV0pTzIw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7gUXziqeEeeQt8oV0pTzIw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7gUXzyqeEeeQt8oV0pTzIw" id="Relational" version="Latest" type="routine"/>
+    </ItemsRelations>
     <deletedFolders>Structures/validation_tlogrow_schema</deletedFolders>
     <migrationTask xmi:id="_eo3IsOgNEeafdo9ywNsUdA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_eo3IsegNEeafdo9ywNsUdA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>

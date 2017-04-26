@@ -15,5 +15,4 @@ Sample Data,com.oaklandsw.base,order,6
 Sample Data/multiple_record_input/multi_record_type.txt,com.oaklandsw.transform,repNodeType,173
 Structures,com.oaklandsw.base,order,0
 Structures/multiple_record_input.xml,com.oaklandsw.base,references.0,Sample Data/multiple_record_input/multi_record_type.txt
-Structures/validation_tlogrow_schema.xml,com.oaklandsw.base,needsVal.0,Namespace Containers/validation_tlogrow_schema.xml
 Structures/validation_tlogrow_schema.xml,com.oaklandsw.base,references.0,Namespace Containers/validation_tlogrow_schema.xml

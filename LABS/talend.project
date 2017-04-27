@@ -228,6 +228,24 @@
       <relatedItems xmi:id="_MX8Z_ytUEeeQt8oV0pTzIw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_7xE44CtUEeeQt8oV0pTzIw" id="_nq84ICtUEeeQt8oV0pTzIw" version="Latest" type="mapper"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_QhYs0CtaEeeQt8oV0pTzIw">
+      <baseItem xmi:id="_QhYs0StaEeeQt8oV0pTzIw" id="_lHoqACtYEeeQt8oV0pTzIw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_QhYs0itaEeeQt8oV0pTzIw" id="_2R46ECtZEeeQt8oV0pTzIw" version="Latest" type="mapper"/>
+      <relatedItems xmi:id="_QhYs0ytaEeeQt8oV0pTzIw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs1CtaEeeQt8oV0pTzIw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs1StaEeeQt8oV0pTzIw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs1itaEeeQt8oV0pTzIw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs1ytaEeeQt8oV0pTzIw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs2CtaEeeQt8oV0pTzIw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs2StaEeeQt8oV0pTzIw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs2itaEeeQt8oV0pTzIw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs2ytaEeeQt8oV0pTzIw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs3CtaEeeQt8oV0pTzIw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs3StaEeeQt8oV0pTzIw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs3itaEeeQt8oV0pTzIw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs3ytaEeeQt8oV0pTzIw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QhYs4CtaEeeQt8oV0pTzIw" id="DataQualityDependencies" version="Latest" type="routine"/>
+    </ItemsRelations>
     <deletedFolders>Structures/validation_tlogrow_schema</deletedFolders>
     <migrationTask xmi:id="_eo3IsOgNEeafdo9ywNsUdA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_eo3IsegNEeafdo9ywNsUdA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>

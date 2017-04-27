@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_lIFV8CtYEeeQt8oV0pTzIw" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_lIFV8StYEeeQt8oV0pTzIw" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_lIFV8itYEeeQt8oV0pTzIw">
+    <elementParameter xmi:id="_lIFV8ytYEeeQt8oV0pTzIw" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV9CtYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV9StYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV9itYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV9ytYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV-CtYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV-StYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV-itYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV-ytYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV_CtYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV_StYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV_itYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_lIFV_ytYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_lIFWACtYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_lIFWAStYEeeQt8oV0pTzIw" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_lHoqAytYEeeQt8oV0pTzIw" id="_ewnWgOgNEeafdo9ywNsUdA" name="DQTechnical"/>
+    <routinesParameter xmi:id="_lHoqBCtYEeeQt8oV0pTzIw" id="_ewOU8OgNEeafdo9ywNsUdA" name="DataMasking"/>
+    <routinesParameter xmi:id="_lHoqBStYEeeQt8oV0pTzIw" id="_es5UIOgNEeafdo9ywNsUdA" name="DataOperation"/>
+    <routinesParameter xmi:id="_lHoqBitYEeeQt8oV0pTzIw" id="_ewfasOgNEeafdo9ywNsUdA" name="DataQualityDependencies"/>
+    <routinesParameter xmi:id="_lHoqBytYEeeQt8oV0pTzIw" id="_ewbwUOgNEeafdo9ywNsUdA" name="DataQuality"/>
+    <routinesParameter xmi:id="_lHoqCCtYEeeQt8oV0pTzIw" id="_ewlhUOgNEeafdo9ywNsUdA" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_lHoqCStYEeeQt8oV0pTzIw" id="_ev5k0OgNEeafdo9ywNsUdA" name="Mathematical"/>
+    <routinesParameter xmi:id="_lHoqCitYEeeQt8oV0pTzIw" id="_ev-dUOgNEeafdo9ywNsUdA" name="Numeric"/>
+    <routinesParameter xmi:id="_lHoqCytYEeeQt8oV0pTzIw" id="_ewASgOgNEeafdo9ywNsUdA" name="Relational"/>
+    <routinesParameter xmi:id="_lHoqDCtYEeeQt8oV0pTzIw" id="_ewpywOgNEeafdo9ywNsUdA" name="SQLike"/>
+    <routinesParameter xmi:id="_lHoqDStYEeeQt8oV0pTzIw" id="_ewDV0OgNEeafdo9ywNsUdA" name="StringHandling"/>
+    <routinesParameter xmi:id="_lHoqDitYEeeQt8oV0pTzIw" id="_ewFyEOgNEeafdo9ywNsUdA" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_lHoqDytYEeeQt8oV0pTzIw" id="_ewIOUOgNEeafdo9ywNsUdA" name="TalendDate"/>
+    <routinesParameter xmi:id="_lHoqECtYEeeQt8oV0pTzIw" id="_ewKDgOgNEeafdo9ywNsUdA" name="TalendString"/>
+  </parameters>
+</talendfile:ProcessType>

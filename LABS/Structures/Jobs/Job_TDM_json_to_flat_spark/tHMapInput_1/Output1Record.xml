@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x15bafc88a81' V1='4' name='Output1Record' incarnation='13'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' avroName='Output1_1_Struct' avroNamespace='labs.job_tdm_json_to_flat_spark_0_1' V281='13' V1='4' name='Output1Record'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' avroJavaClass='java.lang.String' V281='13' V1='4' name='newColumn'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='4' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' avroJavaClass='java.lang.String' V281='13' V1='4' name='newColumn1'>
+      <structNode t='150' idref='1'/>
+    </child>
+  </rootElem>
+  <defaultRep t='179' id='5' V179='1' V170='10' V699='1' avroNamespace='labs.job_tdm_json_to_flat_spark_0_1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='AVRO'>
+  </defaultRep>
+  <child t='162' id='6' V1='4' name='Representations'>
+    <child t='179' idref='5'/>
+    <child t='172' id='7' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    </child>
+    <child t='177' id='8' V177='1' V170='10' V697='1' V690='1' padOutput='true' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='JSON'>
+    </child>
+  </child>
+  <child t='165' id='9' V1='4' name='Document Bindings'>
+  </child>
+</root>

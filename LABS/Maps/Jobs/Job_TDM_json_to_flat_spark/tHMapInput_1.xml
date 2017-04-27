@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/course_version.xml' outStruct='Structures/Jobs/Job_TDM_json_to_flat_spark/tHMapInput_1/OutputWrapper.xml' inputRep='177' outputRep='179' nextMap='' inputStructUserName='course_version' outputStructUserName='OutputWrapper' V1='4' name='tHMapInput_1' incarnation='329'>
+<root t='190' id='1' V190='11' inStruct='Structures/course_version.xml' outStruct='Structures/Jobs/Job_TDM_json_to_flat_spark/tHMapInput_1/OutputWrapper.xml' inputRep='177' outputRep='179' nextMap='' inputStructUserName='course_version' outputStructUserName='OutputWrapper' V1='4' name='tHMapInput_1' incarnation='350'>
   <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='Root'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='3' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='_id'>
@@ -114,11 +114,14 @@
       <mapNode t='190' idref='1'/>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='40' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
+  <outputMapElem t='200' id='40' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/Root,{Filter},{Sort Keys},{Contexts})</loop>
-    <child t='200' id='41' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/Job_TDM_json_to_flat_spark/tHMapInput_1/Output1.xml' V281='13' V1='4' name='Output1'>
+    <child t='200' id='41' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/Job_TDM_json_to_flat_spark/tHMapInput_1/Output1.xml' V281='13' modifiedFromParent_io='true' V1='4' name='Output1'>
       <mapNode t='190' idref='1'/>
+      <repRuntime t='699' id='50' V699='1' V690='1'>
+      </repRuntime>
+      <io>WriteURL([repName="AVRO"],{URL})</io>
       <child t='200' id='42' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/Job_TDM_json_to_flat_spark/tHMapInput_1/Output1Record.xml' V281='13' V1='4' name='Output1Record'>
         <mapNode t='190' idref='1'/>
         <child t='200' id='43' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' avroJavaClass='java.lang.String' V281='13' V1='4' name='newColumn'>
@@ -129,8 +132,10 @@
         </child>
       </child>
     </child>
-    <child t='200' id='45' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/Job_TDM_json_to_flat_spark/tHMapInput_1/Output2.xml' V281='13' V1='4' name='Output2'>
+    <child t='200' id='45' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/Job_TDM_json_to_flat_spark/tHMapInput_1/Output2.xml' V281='13' modifiedFromParent_io='true' V1='4' name='Output2'>
       <mapNode t='190' idref='1'/>
+      <repRuntime t='699' idref='50'/>
+      <io>WriteURL([repName="AVRO"],{URL})</io>
       <child t='200' id='46' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/Job_TDM_json_to_flat_spark/tHMapInput_1/Output2Record.xml' V281='13' V1='4' name='Output2Record'>
         <mapNode t='190' idref='1'/>
         <child t='200' id='47' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' avroJavaClass='java.lang.String' V281='13' V1='4' name='newColumn'>
@@ -144,8 +149,7 @@
   </outputMapElem>
   <inputRepRuntime t='697' id='49' V697='1' V690='1' padOutput='true'>
   </inputRepRuntime>
-  <outputRepRuntime t='699' id='50' V699='1' V690='1'>
-  </outputRepRuntime>
+  <outputRepRuntime t='699' idref='50'/>
   <valueSets></valueSets>
   <inputXmlRepRuntime t='692' id='51' V692='1' V690='1'>
   </inputXmlRepRuntime>
@@ -155,8 +159,11 @@
     <child t='166' id='54' V166='5' docType='1' docReposPath='/LABS/Sample Data/course_version/course_version' V1='4' name='in$/Root'>
       <elemNode t='200' idref='2'/>
     </child>
-    <child t='166' id='55' V166='5' docType='2' V1='4' name='out$/root'>
-      <elemNode t='200' idref='40'/>
+    <child t='166' id='57' V166='5' docType='2' V1='4' name='out$/root/Output1'>
+      <elemNode t='200' idref='41'/>
+    </child>
+    <child t='166' id='58' V166='5' docType='2' V1='4' name='out$/root/Output2'>
+      <elemNode t='200' idref='45'/>
     </child>
   </child>
   <child t='201' id='56' V1='4' name='Inherits From'>

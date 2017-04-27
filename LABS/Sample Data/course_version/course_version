@@ -1,0 +1,1726 @@
+{ "_id" : "551c582f3012ce093d122b5f",
+    "version" : "v1.6.1",
+    "seed_version" : "Business Analytics 1.6",
+    "description" : "",
+    "course" : "507f1f77bcf86cd712839209",
+    "glossary_id" : "507f1f77bcf86cd799434001",
+    "question_bank_id" : "507f1f77bcf86cd799436001",
+    "case_studies" : [
+	""
+    ],
+    "courseware_containers" : [ 
+	{
+	    "id" : "503e66e2-889b-4741-8845-9d7950c258c6",
+	    "name" : "introduction-to-business-analytics-with-prof-jan-hammond",
+	    "display_name" : "Introduction to Business Analytics with Prof. Jan Hammond",
+	    "courseware_containers" : [ 
+		{
+		    "id" : "7fec5b55-7279-431b-89e9-78c43daefa6a",
+		    "name" : "business-analytics",
+		    "display_name" : "Business Analytics",
+		    "courseware_containers" : [ 
+			{
+			    "id" : "00246f39-9104-4c64-95e3-5e327e853dfe",
+			    "name" : "welcome",
+			    "display_name" : "Welcome",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [ 
+				"551c582f3012ce093d122b8f"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/00246f39-9104-4c64-95e3-5e327e853dfe.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/00246f39-9104-4c64-95e3-5e327e853dfe_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		}
+	    ],
+	    "teaching_element_instances" : [ ]
+	},
+	{
+	    "id" : "4657f87c-abe6-4ec3-abb8-3d4ac721b951",
+	    "name" : "describing-and-summarizing-data",
+	    "display_name" : "Describing and Summarizing Data",
+	    "courseware_containers" : [ 
+		{
+		    "id" : "6fd75dff-aa6e-45ad-bc2a-7abc7268a5ac",
+		    "name" : "11-introduction",
+		    "display_name" : "1.1 Introduction",
+		    "case_study" : "",
+		    "courseware_containers" : [ 
+			{
+			    "id" : "a5c1b3ec-9c19-469c-8fb8-c215fb07e3ce",
+			    "name" : "111-analyzing-box-office-revenues",
+			    "display_name" : "1.1.1 Analyzing Box Office Revenues",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [ 
+				"551c58313012ce093d122c67"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/a5c1b3ec-9c19-469c-8fb8-c215fb07e3ce.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/a5c1b3ec-9c19-469c-8fb8-c215fb07e3ce_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "e18d6e8a-8bf1-46bc-89cb-7812a48bb2af",
+		    "name" : "12-visualizing-data",
+		    "display_name" : "1.2 Visualizing Data",
+		    "courseware_containers" : [ 
+			{
+			    "id" : "82b53ec3-6c2d-4f94-be36-9c44b1acd707",
+			    "name" : "121-recognizing-patterns",
+			    "display_name" : "1.2.1 Recognizing Patterns",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [ 
+				"551c58323012ce093d122cba",
+				"551c58323012ce093d122ce4",
+				"551c58323012ce093d122cbd"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/82b53ec3-6c2d-4f94-be36-9c44b1acd707.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/82b53ec3-6c2d-4f94-be36-9c44b1acd707_thumbnail.png"
+			},
+			{
+			    "id" : "f3714d04-6276-4892-ac9d-74ae7767296a",
+			    "name" : "122-histograms",
+			    "display_name" : "1.2.2 Histograms",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122bba",
+				"551c58313012ce093d122c88",
+				"551c58323012ce093d122cfa",
+				"551c58323012ce093d122cce",
+				"551c58313012ce093d122c7d"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/f3714d04-6276-4892-ac9d-74ae7767296a.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/f3714d04-6276-4892-ac9d-74ae7767296a_thumbnail.png"
+			},
+			{
+			    "id" : "21d4da2b-eaff-4c21-857b-de5775ed533a",
+			    "name" : "123-outliers",
+			    "display_name" : "1.2.3 Outliers",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122c1e",
+				"551c58323012ce093d122cb4",
+				"551c582f3012ce093d122b78"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/21d4da2b-eaff-4c21-857b-de5775ed533a.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/21d4da2b-eaff-4c21-857b-de5775ed533a_thumbnail.png"
+			},
+			{
+			    "id" : "43d2128a-4c5a-4213-bb11-949aab921fc1",
+			    "name" : "12-summary",
+			    "display_name" : "1.2 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cb5"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/43d2128a-4c5a-4213-bb11-949aab921fc1.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/43d2128a-4c5a-4213-bb11-949aab921fc1_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "02e3c316-a136-4c18-a01c-ab97bb51c255",
+		    "name" : "13-descriptive-statistics",
+		    "display_name" : "1.3 Descriptive Statistics",
+		    "courseware_containers" : [
+			{
+			    "id" : "aec942c4-a72e-41f6-b3f5-50b8bccfb9ff",
+			    "name" : "131-central-values-for-data",
+			    "display_name" : "1.3.1 Central Values for Data",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122bce",
+				"551c58323012ce093d122cab",
+				"551c58323012ce093d122d1d",
+				"551c582f3012ce093d122b6e",
+				"551c58313012ce093d122c71"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/aec942c4-a72e-41f6-b3f5-50b8bccfb9ff.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/aec942c4-a72e-41f6-b3f5-50b8bccfb9ff_thumbnail.png"
+			},
+			{
+			    "id" : "283fbc4f-9710-4ee9-97b4-e8ba5de475cb",
+			    "name" : "132-conditional-means",
+			    "display_name" : "1.3.2 Conditional Means",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122c03"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/283fbc4f-9710-4ee9-97b4-e8ba5de475cb.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/283fbc4f-9710-4ee9-97b4-e8ba5de475cb_thumbnail.png"
+			},
+			{
+			    "id" : "a3bfa436-f158-40ab-be11-43cf3a29d821",
+			    "name" : "133-percentiles",
+			    "display_name" : "1.3.3 Percentiles",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122bf9",
+				"551c58333012ce093d122d39",
+				"551c58323012ce093d122ca8",
+				"551c58313012ce093d122ca5"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/a3bfa436-f158-40ab-be11-43cf3a29d821.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/a3bfa436-f158-40ab-be11-43cf3a29d821_thumbnail.png"
+			},
+			{
+			    "id" : "c2cd4431-70d8-4bea-8e1f-42434f65d9f7",
+			    "name" : "134-variability",
+			    "display_name" : "1.3.4 Variability",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122ce9",
+				"551c582f3012ce093d122b7d",
+				"551c58303012ce093d122b99",
+				"551c58303012ce093d122bfa",
+				"551c58323012ce093d122d24",
+				"551c58313012ce093d122c76",
+				"551c58313012ce093d122c92"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/c2cd4431-70d8-4bea-8e1f-42434f65d9f7.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/c2cd4431-70d8-4bea-8e1f-42434f65d9f7_thumbnail.png"
+			},
+			{
+			    "id" : "fbaf2bc9-6e19-46d9-bc4c-b885c2db4fd0",
+			    "name" : "135-descriptive-statistics-in-excel",
+			    "display_name" : "1.3.5 Descriptive Statistics in Excel",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b6a",
+				"551c58323012ce093d122cf0",
+				"551c58303012ce093d122bf8"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/fbaf2bc9-6e19-46d9-bc4c-b885c2db4fd0.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/fbaf2bc9-6e19-46d9-bc4c-b885c2db4fd0_thumbnail.png"
+			},
+			{
+			    "id" : "9713fb0a-1b56-4413-9184-e6d43802887a",
+			    "name" : "136-coefficient-of-variation",
+			    "display_name" : "1.3.6 Coefficient of Variation",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c54"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/9713fb0a-1b56-4413-9184-e6d43802887a.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/9713fb0a-1b56-4413-9184-e6d43802887a_thumbnail.png"
+			},
+			{
+			    "id" : "e6051abe-d0e2-481b-bf77-c465f95ed5cf",
+			    "name" : "13-summary",
+			    "display_name" : "1.3 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b69"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/e6051abe-d0e2-481b-bf77-c465f95ed5cf.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/e6051abe-d0e2-481b-bf77-c465f95ed5cf_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "ccea3e72-afe7-40ef-9ce2-de4ac33e93df",
+		    "name" : "14-relationships-between-two-variables",
+		    "display_name" : "1.4 Relationships Between Two Variables",
+		    "courseware_containers" : [
+			{
+			    "id" : "21f0f23d-5c25-4be3-9de8-52d313c86f7f",
+			    "name" : "141-scatter-plots",
+			    "display_name" : "1.4.1 Scatter Plots",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122c01",
+				"551c58313012ce093d122c8d"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/21f0f23d-5c25-4be3-9de8-52d313c86f7f.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/21f0f23d-5c25-4be3-9de8-52d313c86f7f_thumbnail.png"
+			},
+			{
+			    "id" : "2fde1e57-efc5-4de4-b084-9f927d9f828d",
+			    "name" : "142-correlation",
+			    "display_name" : "1.4.2 Correlation",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122ca4",
+				"551c58303012ce093d122bd5",
+				"551c58303012ce093d122c0c",
+				"551c58313012ce093d122c33",
+				"551c58323012ce093d122d13",
+				"551c58323012ce093d122ccd"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/2fde1e57-efc5-4de4-b084-9f927d9f828d.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/2fde1e57-efc5-4de4-b084-9f927d9f828d_thumbnail.png"
+			},
+			{
+			    "id" : "2609efd3-352d-4f74-9e51-b18e4f7736c3",
+			    "name" : "143-hidden-variables",
+			    "display_name" : "1.4.3 Hidden Variables",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b8c",
+				"551c58323012ce093d122d11"
+			    ]
+			},
+			{
+			    "id" : "3eea4c04-7a01-4afe-996c-143884410b91",
+			    "name" : "144-time-series",
+			    "display_name" : "1.4.4 Time Series",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cb3",
+				"551c58303012ce093d122bc3"
+			    ]
+			},
+			{
+			    "id" : "fa6d7bc1-f946-465f-b99d-b0daf86e91a7",
+			    "name" : "14-summary",
+			    "display_name" : "1.4 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122ba7"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/fa6d7bc1-f946-465f-b99d-b0daf86e91a7.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/fa6d7bc1-f946-465f-b99d-b0daf86e91a7_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "7f885df5-90b5-43ca-bd06-870d93590854",
+		    "name" : "module-1-summary",
+		    "display_name" : "Module 1 Summary",
+		    "courseware_containers" : [
+			{
+			    "id" : "df948124-8978-429c-ab7d-7f37a3c9203f",
+			    "name" : "module-1-summary",
+			    "display_name" : "Module 1 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c23",
+				"551c58333012ce093d122d56",
+				"552803183012ce09423eab5a"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/df948124-8978-429c-ab7d-7f37a3c9203f.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/df948124-8978-429c-ab7d-7f37a3c9203f_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "e5b4d067-aae7-41c0-b8fe-46fe6aee9924",
+		    "name" : "module-1-quiz",
+		    "display_name" : "Module 1 Quiz",
+		    "courseware_containers" : [
+			{
+			    "id" : "28dddceb-83d3-4be2-87c9-6378618899ea",
+			    "name" : "module-1-quiz",
+			    "display_name" : "Module 1 Quiz",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cb6"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/28dddceb-83d3-4be2-87c9-6378618899ea.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/28dddceb-83d3-4be2-87c9-6378618899ea_thumbnail.png"
+			},
+			{
+			    "id" : "386227a8-f0b1-4f71-b1c1-b491941eadd8",
+			    "name" : "module-1-wrap-up",
+			    "display_name" : "Module 1 Wrap-up",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c55",
+				"551d595f3012ce09341f0655",
+				"551c58303012ce093d122bf3"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/386227a8-f0b1-4f71-b1c1-b491941eadd8.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/386227a8-f0b1-4f71-b1c1-b491941eadd8_thumbnail.png",
+			    "title" : "",
+			    "subtitle" : ""
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		}
+	    ],
+	    "teaching_element_instances" : [ ]
+	},
+	{
+	    "id" : "347eddf2-1307-4a7f-84e0-1f56093e8b9c",
+	    "name" : "sampling-and-estimation",
+	    "display_name" : "Sampling and Estimation",
+	    "courseware_containers" : [
+		{
+		    "id" : "1acc356f-8ad3-46cd-8c66-69252db7f2d9",
+		    "name" : "21-introduction",
+		    "display_name" : "2.1 Introduction",
+		    "courseware_containers" : [
+			{
+			    "id" : "1388a249-0f41-4805-90d4-bf13473c76e0",
+			    "name" : "211-sampling-at-amazon",
+			    "display_name" : "2.1.1 Sampling at Amazon",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c8b"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/1388a249-0f41-4805-90d4-bf13473c76e0.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/1388a249-0f41-4805-90d4-bf13473c76e0_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "807fef96-b140-45bc-8006-cd872ee3bcb0",
+		    "name" : "22-creating-representative-and-unbiased-samples",
+		    "display_name" : "2.2 Creating Representative and Unbiased Samples",
+		    "courseware_containers" : [
+			{
+			    "id" : "4123a173-6306-4781-9595-fa44d7df68bd",
+			    "name" : "221-samples-vs-populations",
+			    "display_name" : "2.2.1 Samples vs. Populations",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122d0a",
+				"551c582f3012ce093d122b87",
+				"551c58313012ce093d122c85",
+				"551c58323012ce093d122cd5",
+				"551c58303012ce093d122be1",
+				"551c582f3012ce093d122b8e",
+				"551c58323012ce093d122d33"
+			    ]
+			},
+			{
+			    "id" : "53e8ea98-8f29-48db-b477-8dca40506aac",
+			    "name" : "222-sample-size",
+			    "display_name" : "2.2.2 Sample Size",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c90",
+				"551c58303012ce093d122be7",
+				"551c58323012ce093d122d1c"
+			    ]
+			},
+			{
+			    "id" : "d0dad7ba-5be1-4c9f-b688-1fac42304cb8",
+			    "name" : "223-avoiding-bias",
+			    "display_name" : "2.2.3 Avoiding Bias",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b86",
+				"551c58323012ce093d122ceb",
+				"551c582f3012ce093d122b81",
+				"551c58313012ce093d122c5b",
+				"551c58323012ce093d122ced",
+				"551c58323012ce093d122cd6",
+				"551c58303012ce093d122c00",
+				"551c582f3012ce093d122b82",
+				"551c58303012ce093d122be4",
+				"551c58313012ce093d122c3e",
+				"551c58323012ce093d122cfc"
+			    ]
+			},
+			{
+			    "id" : "6dbf6b6e-f399-4d0f-8bd0-9957c11dc10a",
+			    "name" : "22-summary",
+			    "display_name" : "2.2 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c3b"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/6dbf6b6e-f399-4d0f-8bd0-9957c11dc10a.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/6dbf6b6e-f399-4d0f-8bd0-9957c11dc10a_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "9703cdf7-1749-4d17-8e4d-a4083496eafa",
+		    "name" : "23-the-normal-distribution",
+		    "display_name" : "2.3 The Normal Distribution",
+		    "courseware_containers" : [
+			{
+			    "id" : "a1c27e13-c744-4af5-af06-80311a05ef38",
+			    "name" : "231-rules-of-thumb",
+			    "display_name" : "2.3.1 Rules of Thumb",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c5d",
+				"551c58303012ce093d122bc6",
+				"551c582f3012ce093d122b79"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/a1c27e13-c744-4af5-af06-80311a05ef38.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/a1c27e13-c744-4af5-af06-80311a05ef38_thumbnail.png"
+			},
+			{
+			    "id" : "5aa2bddb-5a30-4c26-bb4f-fbd5be547c0f",
+			    "name" : "232-the-normal-function-normdist",
+			    "display_name" : "2.3.2 The Normal Function: NORM.DIST",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c4d",
+				"551c58333012ce093d122d48",
+				"551c58303012ce093d122c16",
+				"551c582f3012ce093d122b70",
+				"551c582f3012ce093d122b89"
+			    ]
+			},
+			{
+			    "id" : "714717c4-c7bf-4c4b-8180-efc7fc15bc4c",
+			    "name" : "233-the-normal-function-norminv",
+			    "display_name" : "2.3.3 The Normal Function: NORM.INV",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c3a",
+				"551c58303012ce093d122bdc",
+				"551c58333012ce093d122d54",
+				"551c58303012ce093d122c19"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/714717c4-c7bf-4c4b-8180-efc7fc15bc4c.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/714717c4-c7bf-4c4b-8180-efc7fc15bc4c_thumbnail.png"
+			},
+			{
+			    "id" : "27b3f5cb-a37b-46a6-b992-daaefc5e896a",
+			    "name" : "234-the-central-limit-theorem",
+			    "display_name" : "2.3.4 The Central Limit Theorem",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c22",
+				"551c58323012ce093d122cc1"
+			    ]
+			},
+			{
+			    "id" : "7fa98989-cf67-460d-9666-6f648417a11d",
+			    "name" : "23-summary",
+			    "display_name" : "2.3 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58333012ce093d122d4e"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/7fa98989-cf67-460d-9666-6f648417a11d.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/7fa98989-cf67-460d-9666-6f648417a11d_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "976af36f-20e4-488d-b92d-e9adec2736f5",
+		    "name" : "24-confidence-intervals",
+		    "display_name" : "2.4 Confidence Intervals",
+		    "courseware_containers" : [
+			{
+			    "id" : "191c8feb-1abd-4e71-81a2-06380fc33884",
+			    "name" : "241-estimating-the-population-mean",
+			    "display_name" : "2.4.1 Estimating the Population Mean",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122d06",
+				"551c58323012ce093d122d01",
+				"551c58303012ce093d122bb2"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/191c8feb-1abd-4e71-81a2-06380fc33884.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/191c8feb-1abd-4e71-81a2-06380fc33884_thumbnail.png"
+			},
+			{
+			    "id" : "aed37f28-5475-441a-b310-bfe08b8bbe2a",
+			    "name" : "242-large-samples",
+			    "display_name" : "2.4.2 Large Samples",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58333012ce093d122d4c",
+				"551c582f3012ce093d122b61",
+				"551c58303012ce093d122c0e",
+				"551c58323012ce093d122cbc"
+			    ]
+			},
+			{
+			    "id" : "6c7954ba-965e-4478-9b73-9706220c8eee",
+			    "name" : "243-small-samples",
+			    "display_name" : "2.4.3 Small Samples",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122d23",
+				"551c58323012ce093d122d2e",
+				"551c582f3012ce093d122b72",
+				"551c58303012ce093d122c15",
+				"551c58333012ce093d122d37"
+			    ]
+			},
+			{
+			    "id" : "dc125ad6-7e10-4cdf-8c88-62c8daaf5dfb",
+			    "name" : "244-choosing-a-sample-size",
+			    "display_name" : "2.4.4 Choosing a Sample Size",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c7b"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/dc125ad6-7e10-4cdf-8c88-62c8daaf5dfb.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/dc125ad6-7e10-4cdf-8c88-62c8daaf5dfb_thumbnail.png"
+			},
+			{
+			    "id" : "93799be0-8ba0-46d4-a838-dca2d832cf2b",
+			    "name" : "245-estimating-the-population-proportion",
+			    "display_name" : "2.4.5 Estimating the Population Proportion",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c82",
+				"551c58313012ce093d122c64",
+				"551c58303012ce093d122b9a",
+				"551c58303012ce093d122bb0",
+				"551c58303012ce093d122c14",
+				"551c58323012ce093d122cf9"
+			    ]
+			},
+			{
+			    "id" : "0646b216-d973-43b1-bd4c-3b6dde92c4d4",
+			    "name" : "24-summary",
+			    "display_name" : "2.4 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cec"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/0646b216-d973-43b1-bd4c-3b6dde92c4d4.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/0646b216-d973-43b1-bd4c-3b6dde92c4d4_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "cdbfc79e-2956-4894-9d8e-d571a28d7f75",
+		    "name" : "25-amazons-inventory-sampling",
+		    "display_name" : "2.5 Amazon's Inventory Sampling",
+		    "courseware_containers" : [
+			{
+			    "id" : "f21c4b31-70ad-4622-b674-b8a9241579ce",
+			    "name" : "251-amazons-inventory-sampling",
+			    "display_name" : "2.5.1 Amazon's Inventory Sampling",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c75",
+				"551c58303012ce093d122bbb",
+				"551c58333012ce093d122d40",
+				"551c58313012ce093d122c59",
+				"551c58313012ce093d122c4f"
+			    ]
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "53a2d237-18c3-414c-86a8-bc82512ad71f",
+		    "name" : "module-2-summary",
+		    "display_name" : "Module 2 Summary",
+		    "courseware_containers" : [
+			{
+			    "id" : "5982ebdd-71a7-4ee9-8b10-0074ad5ef4a1",
+			    "name" : "module-2-summary",
+			    "display_name" : "Module 2 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c4c",
+				"551c58333012ce093d122d57",
+				"552803a43012ce09480038d0"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/5982ebdd-71a7-4ee9-8b10-0074ad5ef4a1.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/5982ebdd-71a7-4ee9-8b10-0074ad5ef4a1_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "e19a155d-7d94-4825-9376-c5e5832f26d7",
+		    "name" : "module-2-quiz",
+		    "display_name" : "Module 2 Quiz",
+		    "courseware_containers" : [
+			{
+			    "id" : "b33c6d10-bbf8-46ee-96fa-e8fa06e1f8ca",
+			    "name" : "module-2-quiz",
+			    "display_name" : "Module 2 Quiz",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122bb3"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/b33c6d10-bbf8-46ee-96fa-e8fa06e1f8ca.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/b33c6d10-bbf8-46ee-96fa-e8fa06e1f8ca_thumbnail.png"
+			},
+			{
+			    "id" : "8e1992b3-cd2e-403d-89d4-0c579eae6223",
+			    "name" : "module-2-wrap-up",
+			    "display_name" : "Module 2 Wrap-up",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58333012ce093d122d4d",
+				"551d59ef347da8087e6b649c",
+				"551c58323012ce093d122d1a"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/8e1992b3-cd2e-403d-89d4-0c579eae6223.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/8e1992b3-cd2e-403d-89d4-0c579eae6223_thumbnail.png",
+			    "title" : "",
+			    "subtitle" : ""
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		}
+	    ],
+	    "teaching_element_instances" : [ ]
+	},
+	{
+	    "id" : "686cbb71-f337-41c3-b118-06623bd07abf",
+	    "name" : "hypothesis-testing",
+	    "display_name" : "Hypothesis Testing",
+	    "courseware_containers" : [
+		{
+		    "id" : "3ce245ee-38b6-4a29-a28d-a9ec52b39bbc",
+		    "name" : "31-introduction",
+		    "display_name" : "3.1 Introduction",
+		    "courseware_containers" : [
+			{
+			    "id" : "473e043c-c206-4678-9af9-5983da2190fc",
+			    "name" : "311-amazons-use-of-hypothesis-testing",
+			    "display_name" : "3.1.1 Amazon's Use of Hypothesis Testing",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c6a"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/473e043c-c206-4678-9af9-5983da2190fc.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/473e043c-c206-4678-9af9-5983da2190fc_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "7f7904f4-5616-4f0b-b2f5-6fd65739b3c1",
+		    "name" : "32-designing-and-performing-hypothesis-tests",
+		    "display_name" : "3.2 Designing and Performing Hypothesis Tests",
+		    "courseware_containers" : [
+			{
+			    "id" : "ccd4b41c-a6ac-4fc2-8f98-bc848a62495d",
+			    "name" : "321-developing-hypotheses",
+			    "display_name" : "3.2.1 Developing Hypotheses",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122d0b",
+				"551c582f3012ce093d122b64",
+				"551c582f3012ce093d122b7f",
+				"551c58323012ce093d122cb8"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/ccd4b41c-a6ac-4fc2-8f98-bc848a62495d.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/ccd4b41c-a6ac-4fc2-8f98-bc848a62495d_thumbnail.png"
+			},
+			{
+			    "id" : "58d95bd1-a418-4194-b94e-72efea069f5d",
+			    "name" : "322-constructing-a-range-of-likely-sample-means",
+			    "display_name" : "3.2.2 Constructing a Range of Likely Sample Means",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b92",
+				"551c58313012ce093d122c3f",
+				"551c58313012ce093d122c73"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/58d95bd1-a418-4194-b94e-72efea069f5d.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/58d95bd1-a418-4194-b94e-72efea069f5d_thumbnail.png"
+			},
+			{
+			    "id" : "175895dd-d135-43d0-b384-278dd44a323e",
+			    "name" : "323-using-p-values",
+			    "display_name" : "3.2.3 Using p-values",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c31",
+				"551c58333012ce093d122d42",
+				"551c58333012ce093d122d4b",
+				"551c58323012ce093d122d07",
+				"551c58313012ce093d122c41"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/175895dd-d135-43d0-b384-278dd44a323e.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/175895dd-d135-43d0-b384-278dd44a323e_thumbnail.png"
+			},
+			{
+			    "id" : "f8dc9d17-32e6-4ae0-85d8-fca29e5ce3fd",
+			    "name" : "324-type-i-and-type-ii-errors",
+			    "display_name" : "3.2.4 Type I and Type II Errors",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c72",
+				"551c58323012ce093d122d10",
+				"551c58313012ce093d122c86",
+				"551c58323012ce093d122cf2",
+				"551c58323012ce093d122d31"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/f8dc9d17-32e6-4ae0-85d8-fca29e5ce3fd.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/f8dc9d17-32e6-4ae0-85d8-fca29e5ce3fd_thumbnail.png"
+			},
+			{
+			    "id" : "93fb2892-ecd2-4412-992a-c6acad7bfbb4",
+			    "name" : "325-one-sided-testing",
+			    "display_name" : "3.2.5 One-sided Testing",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122d17",
+				"551c58303012ce093d122bc2",
+				"551c58333012ce093d122d5b",
+				"551c58313012ce093d122c35",
+				"551c58323012ce093d122cd9",
+				"551c58313012ce093d122c96",
+				"551c58313012ce093d122c63"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/93fb2892-ecd2-4412-992a-c6acad7bfbb4.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/93fb2892-ecd2-4412-992a-c6acad7bfbb4_thumbnail.png"
+			},
+			{
+			    "id" : "909ec284-5863-4374-9f0a-22fcb7d2bad6",
+			    "name" : "326-comparing-two-populations",
+			    "display_name" : "3.2.6 Comparing Two Populations",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c95",
+				"551c58323012ce093d122d09",
+				"551c58333012ce093d122d55",
+				"551c58313012ce093d122c8c",
+				"551c58303012ce093d122bb6",
+				"551c58303012ce093d122bf1"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/909ec284-5863-4374-9f0a-22fcb7d2bad6.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/909ec284-5863-4374-9f0a-22fcb7d2bad6_thumbnail.png"
+			},
+			{
+			    "id" : "f86c3d69-cca5-4801-81c1-72e2f72f2eac",
+			    "name" : "32-summary",
+			    "display_name" : "3.2 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cbf"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/f86c3d69-cca5-4801-81c1-72e2f72f2eac.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/f86c3d69-cca5-4801-81c1-72e2f72f2eac_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "0f5df172-0afa-4661-affc-d3f4f6af1220",
+		    "name" : "33-improving-the-customer-experience",
+		    "display_name" : "3.3 Improving the Customer Experience",
+		    "courseware_containers" : [
+			{
+			    "id" : "162b70c1-1b64-4e54-bc09-fa1b65c9d714",
+			    "name" : "331-the-shopping-cart-ab-test",
+			    "display_name" : "3.3.1 The Shopping Cart A/B Test",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122c09",
+				"551c58303012ce093d122c10",
+				"551c58313012ce093d122ca0",
+				"551c58313012ce093d122c52",
+				"551c58313012ce093d122c2d",
+				"551c58323012ce093d122d0f",
+				"551c58303012ce093d122c0f"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/162b70c1-1b64-4e54-bc09-fa1b65c9d714.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/162b70c1-1b64-4e54-bc09-fa1b65c9d714_thumbnail.png"
+			},
+			{
+			    "id" : "e1b696b7-54f1-4035-908f-a42f0e10d8ad",
+			    "name" : "332-the-arrow-ab-test",
+			    "display_name" : "3.3.2 The Arrow A/B Test",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c5c",
+				"551c58303012ce093d122bdf",
+				"551c58303012ce093d122baa",
+				"551c58313012ce093d122c68",
+				"551c58303012ce093d122bec"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/e1b696b7-54f1-4035-908f-a42f0e10d8ad.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/e1b696b7-54f1-4035-908f-a42f0e10d8ad_thumbnail.png"
+			},
+			{
+			    "id" : "4eda1a60-1eca-4067-82df-7046f609eace",
+			    "name" : "333-the-magazine-ab-test",
+			    "display_name" : "3.3.3 The Magazine A/B Test",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b7e",
+				"551c58303012ce093d122c08",
+				"551c58303012ce093d122ba3",
+				"551c58303012ce093d122bb7",
+				"551c58323012ce093d122d2b",
+				"551c58333012ce093d122d5c",
+				"551c58313012ce093d122c6d",
+				"551c58303012ce093d122c0b"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/4eda1a60-1eca-4067-82df-7046f609eace.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/4eda1a60-1eca-4067-82df-7046f609eace_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "8fce3d3b-b01a-4fde-a667-c43047d49ee6",
+		    "name" : "module-3-summary",
+		    "display_name" : "Module 3 Summary",
+		    "courseware_containers" : [
+			{
+			    "id" : "42e7623a-a6f6-415b-bafa-b6a444e105be",
+			    "name" : "module-3-summary",
+			    "display_name" : "Module 3 Summary",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b6b",
+				"551c58333012ce093d122d58",
+				"552803ea347da80888c542d4"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/42e7623a-a6f6-415b-bafa-b6a444e105be.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/42e7623a-a6f6-415b-bafa-b6a444e105be_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "4ac530be-d8b7-432e-b628-909216cc807a",
+		    "name" : "module-3-quiz",
+		    "display_name" : "Module 3 Quiz",
+		    "courseware_containers" : [
+			{
+			    "id" : "06bd52ea-d2a7-489a-acd1-520ecd2640c1",
+			    "name" : "module-3-quiz",
+			    "display_name" : "Module 3 Quiz",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c8e"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/06bd52ea-d2a7-489a-acd1-520ecd2640c1.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/06bd52ea-d2a7-489a-acd1-520ecd2640c1_thumbnail.png"
+			},
+			{
+			    "id" : "fd7b32c6-dd4d-4056-aa21-b934aa13e522",
+			    "name" : "module-3-wrap-up",
+			    "display_name" : "Module 3 Wrap-up",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122bff",
+				"551c58333012ce093d122d60",
+				"551c58303012ce093d122c0d"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/fd7b32c6-dd4d-4056-aa21-b934aa13e522.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/fd7b32c6-dd4d-4056-aa21-b934aa13e522_thumbnail.png",
+			    "subtitle" : "",
+			    "title" : ""
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		}
+	    ],
+	    "teaching_element_instances" : [ ]
+	},
+	{
+	    "id" : "22f642cc-4ef2-40be-9f4d-a5dc0aece08f",
+	    "name" : "single-variable-linear-regression",
+	    "display_name" : "Single Variable Linear Regression",
+	    "courseware_containers" : [
+		{
+		    "id" : "ad50417c-4b91-4c43-a6f8-22033c1c5299",
+		    "name" : "41-introduction",
+		    "display_name" : "4.1 Introduction",
+		    "courseware_containers" : [
+			{
+			    "id" : "38b91c7e-af63-4ebd-a0dd-956926c4e49d",
+			    "name" : "411-regression-at-disney-studios",
+			    "display_name" : "4.1.1 Regression at Disney Studios",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122d20"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/38b91c7e-af63-4ebd-a0dd-956926c4e49d.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/38b91c7e-af63-4ebd-a0dd-956926c4e49d_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "b0303d77-d2b8-42cc-8650-fe3400ed02f7",
+		    "name" : "42-the-regression-line",
+		    "display_name" : "4.2 The Regression Line",
+		    "courseware_containers" : [
+			{
+			    "id" : "7d26eb5a-318a-4126-b9cd-175566d5bf17",
+			    "name" : "421-visualizing-the-relationship",
+			    "display_name" : "4.2.1 Visualizing the Relationship",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122ca3",
+				"551c58313012ce093d122c5f",
+				"551c582f3012ce093d122b68",
+				"551c58323012ce093d122d1b"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/7d26eb5a-318a-4126-b9cd-175566d5bf17.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/7d26eb5a-318a-4126-b9cd-175566d5bf17_thumbnail.png"
+			},
+			{
+			    "id" : "85890187-c3b2-4998-b8f2-9be67973e013",
+			    "name" : "422-the-best-fit-line",
+			    "display_name" : "4.2.2 The Best Fit Line",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c39",
+				"551c58313012ce093d122c9b",
+				"551c58303012ce093d122ba9",
+				"551c58323012ce093d122cd0",
+				"551c58333012ce093d122d47",
+				"551c58323012ce093d122ccc"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/85890187-c3b2-4998-b8f2-9be67973e013.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/85890187-c3b2-4998-b8f2-9be67973e013_thumbnail.png"
+			},
+			{
+			    "id" : "0c2fd605-1d5d-4627-a642-0791959f1e6f",
+			    "name" : "423-the-structure-of-the-regression-line",
+			    "display_name" : "4.2.3 The Structure of the Regression Line",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c6f",
+				"551c58313012ce093d122c51",
+				"551c58313012ce093d122ca2"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/0c2fd605-1d5d-4627-a642-0791959f1e6f.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/0c2fd605-1d5d-4627-a642-0791959f1e6f_thumbnail.png"
+			},
+			{
+			    "id" : "47deabb8-d01d-4bd5-874b-423cd239ce51",
+			    "name" : "42-summary",
+			    "display_name" : "4.2 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58333012ce093d122d35"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/47deabb8-d01d-4bd5-874b-423cd239ce51.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/47deabb8-d01d-4bd5-874b-423cd239ce51_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "28b237de-a088-4112-932b-1614af250152",
+		    "name" : "43-forecasting",
+		    "display_name" : "4.3 Forecasting",
+		    "courseware_containers" : [
+			{
+			    "id" : "eb7cb521-da67-47b6-9ef5-cea14c0bebc8",
+			    "name" : "431-point-forecasts",
+			    "display_name" : "4.3.1 Point Forecasts",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c5a",
+				"551c58323012ce093d122cf5",
+				"551c58303012ce093d122bd8",
+				"551c58313012ce093d122c2b",
+				"551c58333012ce093d122d3e"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/eb7cb521-da67-47b6-9ef5-cea14c0bebc8.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/eb7cb521-da67-47b6-9ef5-cea14c0bebc8_thumbnail.png"
+			},
+			{
+			    "id" : "9c53bfd3-6d3d-485f-935e-5abc0ff70fa5",
+			    "name" : "432-prediction-intervals",
+			    "display_name" : "4.3.2 Prediction Intervals",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cd3"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/9c53bfd3-6d3d-485f-935e-5abc0ff70fa5.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/9c53bfd3-6d3d-485f-935e-5abc0ff70fa5_thumbnail.png"
+			},
+			{
+			    "id" : "af3c07f7-ff25-4364-b819-473a7b3f8d81",
+			    "name" : "43-summary",
+			    "display_name" : "4.3 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cc9"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/af3c07f7-ff25-4364-b819-473a7b3f8d81.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/af3c07f7-ff25-4364-b819-473a7b3f8d81_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "b704551d-2f84-4c38-b378-106284ba737b",
+		    "name" : "44-interpreting-the-regression-output",
+		    "display_name" : "4.4 Interpreting the Regression Output",
+		    "courseware_containers" : [
+			{
+			    "id" : "39a9ba58-e9d0-4566-8365-e9bc3bde3019",
+			    "name" : "441-quantifying-predictive-power",
+			    "display_name" : "4.4.1 Quantifying Predictive Power",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c2c",
+				"551c58333012ce093d122d41",
+				"551c58323012ce093d122d08",
+				"551c58323012ce093d122ccf",
+				"551c58313012ce093d122c84",
+				"551c58303012ce093d122c0a"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/39a9ba58-e9d0-4566-8365-e9bc3bde3019.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/39a9ba58-e9d0-4566-8365-e9bc3bde3019_thumbnail.png"
+			},
+			{
+			    "id" : "ba1999e7-0d4a-489b-b750-74195f74fabf",
+			    "name" : "442-testing-for-a-significant-relationship",
+			    "display_name" : "4.4.2 Testing for a Significant Relationship",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c9d",
+				"551c58313012ce093d122c6e",
+				"551c58313012ce093d122c70",
+				"551c582f3012ce093d122b85"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/ba1999e7-0d4a-489b-b750-74195f74fabf.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/ba1999e7-0d4a-489b-b750-74195f74fabf_thumbnail.png"
+			},
+			{
+			    "id" : "177c1617-a0af-4c9a-a0f9-8576b40601f8",
+			    "name" : "443-r-squared-vs-p-value",
+			    "display_name" : "4.4.3 R-squared vs. p-value",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122c12",
+				"551c58313012ce093d122c3c",
+				"551c58303012ce093d122be8"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/177c1617-a0af-4c9a-a0f9-8576b40601f8.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/177c1617-a0af-4c9a-a0f9-8576b40601f8_thumbnail.png"
+			},
+			{
+			    "id" : "74337eb5-f9e4-436f-ab8c-d26d54c96658",
+			    "name" : "444-residual-analysis",
+			    "display_name" : "4.4.4 Residual Analysis",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cd2",
+				"551c58323012ce093d122cff",
+				"551c58303012ce093d122bc8",
+				"551c58303012ce093d122bc9"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/74337eb5-f9e4-436f-ab8c-d26d54c96658.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/74337eb5-f9e4-436f-ab8c-d26d54c96658_thumbnail.png"
+			},
+			{
+			    "id" : "b28f1d1f-5ba1-4b1e-ba43-a05482eb21dd",
+			    "name" : "44-summary",
+			    "display_name" : "4.4 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122bc0"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/b28f1d1f-5ba1-4b1e-ba43-a05482eb21dd.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/b28f1d1f-5ba1-4b1e-ba43-a05482eb21dd_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "eb9725d7-9499-4e23-93b3-c257c4f6e74c",
+		    "name" : "45-performing-regression-analysis",
+		    "display_name" : "4.5 Performing Regression Analysis",
+		    "courseware_containers" : [
+			{
+			    "id" : "ce1c7c82-b547-4e4b-9192-bcd4f1be21ec",
+			    "name" : "451-regression-analysis-in-excel",
+			    "display_name" : "4.5.1 Regression Analysis in Excel",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122b98",
+				"551c58313012ce093d122c69"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/ce1c7c82-b547-4e4b-9192-bcd4f1be21ec.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/ce1c7c82-b547-4e4b-9192-bcd4f1be21ec_thumbnail.png"
+			},
+			{
+			    "id" : "105904f0-b8d7-4905-ad2b-75be03bc687e",
+			    "name" : "452-using-dummy-variables",
+			    "display_name" : "4.5.2 Using Dummy Variables",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c9a",
+				"551c58323012ce093d122cc7",
+				"551c58323012ce093d122d19",
+				"551c582f3012ce093d122b67",
+				"551c58303012ce093d122c05",
+				"551c58323012ce093d122caf"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/105904f0-b8d7-4905-ad2b-75be03bc687e.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/105904f0-b8d7-4905-ad2b-75be03bc687e_thumbnail.png"
+			},
+			{
+			    "id" : "0d33a62f-e0a8-4a96-bc3f-c5114ef6dba5",
+			    "name" : "45-summary",
+			    "display_name" : "4.5 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58333012ce093d122d46"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/0d33a62f-e0a8-4a96-bc3f-c5114ef6dba5.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/0d33a62f-e0a8-4a96-bc3f-c5114ef6dba5_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "4193fbfa-5ae2-48f6-b5d3-7428a0548cfc",
+		    "name" : "46-forecasting-home-video-units",
+		    "display_name" : "4.6 Forecasting Home Video Units",
+		    "courseware_containers" : [
+			{
+			    "id" : "81de62bb-74bf-404d-983d-3c2b3cb07474",
+			    "name" : "461-the-disney-studio-model",
+			    "display_name" : "4.6.1 The Disney Studio Model",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c32",
+				"551c58323012ce093d122cdc",
+				"551c58323012ce093d122d05",
+				"551c58313012ce093d122c6b",
+				"551c58333012ce093d122d4a"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/81de62bb-74bf-404d-983d-3c2b3cb07474.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/81de62bb-74bf-404d-983d-3c2b3cb07474_thumbnail.png"
+			},
+			{
+			    "id" : "9606d0b5-906c-4863-a452-31ad739cf7aa",
+			    "name" : "462-just-a-starting-point",
+			    "display_name" : "4.6.2 Just a Starting Point",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c99",
+				"551c58313012ce093d122c37",
+				"551c58303012ce093d122ba4",
+				"551c58303012ce093d122c1c",
+				"551c58333012ce093d122d5d",
+				"551c58323012ce093d122cf7"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/9606d0b5-906c-4863-a452-31ad739cf7aa.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/9606d0b5-906c-4863-a452-31ad739cf7aa_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "c676f8b4-c4ee-419a-b209-482d73453639",
+		    "name" : "module-4-summary",
+		    "display_name" : "Module 4 Summary",
+		    "courseware_containers" : [
+			{
+			    "id" : "b8fc208e-70b4-40f3-ab33-9132d319597c",
+			    "name" : "module-4-summary",
+			    "display_name" : "Module 4 Summary",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58333012ce093d122d50",
+				"551c58333012ce093d122d59",
+				"5528045c347da8087e6cd701"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/b8fc208e-70b4-40f3-ab33-9132d319597c.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/b8fc208e-70b4-40f3-ab33-9132d319597c_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "52e73c5e-1b97-42a9-8270-9013dd5c6821",
+		    "name" : "module-4-quiz",
+		    "display_name" : "Module 4 Quiz",
+		    "courseware_containers" : [
+			{
+			    "id" : "336f0c7a-6e4d-4609-83ca-5dc12a0d3aa5",
+			    "name" : "module-4-quiz",
+			    "display_name" : "Module 4 Quiz",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122bf4"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/336f0c7a-6e4d-4609-83ca-5dc12a0d3aa5.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/336f0c7a-6e4d-4609-83ca-5dc12a0d3aa5_thumbnail.png"
+			},
+			{
+			    "id" : "c67ff396-72e9-4fde-b740-7c41444c4921",
+			    "name" : "module-4-wrap-up",
+			    "display_name" : "Module 4 Wrap-up",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122bf7",
+				"551c58333012ce093d122d61",
+				"551c58333012ce093d122d49"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/c67ff396-72e9-4fde-b740-7c41444c4921.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/c67ff396-72e9-4fde-b740-7c41444c4921_thumbnail.png",
+			    "subtitle" : "",
+			    "title" : ""
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		}
+	    ],
+	    "teaching_element_instances" : [ ]
+	},
+	{
+	    "id" : "1cf3df55-1980-4130-949a-6e8122ab27ef",
+	    "name" : "multiple-regression",
+	    "display_name" : "Multiple Regression",
+	    "courseware_containers" : [
+		{
+		    "id" : "e0c4dbce-4b01-4142-ba90-cbccd8e60d2d",
+		    "name" : "51-introduction",
+		    "display_name" : "5.1 Introduction",
+		    "courseware_containers" : [
+			{
+			    "id" : "47f7a26d-8165-487f-9af9-903ae757c2ce",
+			    "name" : "511-multiple-regression-at-caesars",
+			    "display_name" : "5.1.1 Multiple Regression at Caesars",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b76"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/47f7a26d-8165-487f-9af9-903ae757c2ce.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/47f7a26d-8165-487f-9af9-903ae757c2ce_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "c8329e6c-ffe3-49c7-8532-876a27a4f2c0",
+		    "name" : "52-the-multiple-regression-equation",
+		    "display_name" : "5.2 The Multiple Regression Equation",
+		    "courseware_containers" : [
+			{
+			    "id" : "852c03af-a0eb-42b7-b1f5-28206636f0bd",
+			    "name" : "521-single-vs-multiple-regression",
+			    "display_name" : "5.2.1 Single vs. Multiple Regression",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122d27",
+				"551c58313012ce093d122c89"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/852c03af-a0eb-42b7-b1f5-28206636f0bd.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/852c03af-a0eb-42b7-b1f5-28206636f0bd_thumbnail.png"
+			},
+			{
+			    "id" : "5ed444a9-d0f2-4035-9123-dbdb814e971c",
+			    "name" : "522-interpreting-the-multiple-regression-equation",
+			    "display_name" : "5.2.2 Interpreting the Multiple Regression Equation",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b8d",
+				"551c58313012ce093d122c4b",
+				"551c58303012ce093d122bd1"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/5ed444a9-d0f2-4035-9123-dbdb814e971c.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/5ed444a9-d0f2-4035-9123-dbdb814e971c_thumbnail.png"
+			},
+			{
+			    "id" : "1b250782-68d4-4600-b7d1-33b7332a9ffc",
+			    "name" : "523-forecasting",
+			    "display_name" : "5.2.3 Forecasting",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122d0e",
+				"551c58313012ce093d122c81",
+				"551c58323012ce093d122cef",
+				"551c58303012ce093d122c13"
+			    ]
+			},
+			{
+			    "id" : "f90e0cb6-5252-4e84-9016-c5638b28a98b",
+			    "name" : "52-summary",
+			    "display_name" : "5.2 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c2e"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/f90e0cb6-5252-4e84-9016-c5638b28a98b.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/f90e0cb6-5252-4e84-9016-c5638b28a98b_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "9fa18dee-c9a7-4945-abe8-eabe335a1bad",
+		    "name" : "53-adapting-concepts-from-single-regression",
+		    "display_name" : "5.3 Adapting Concepts from Single Regression",
+		    "courseware_containers" : [
+			{
+			    "id" : "35c378b0-e0c5-4aef-a746-dcc32634323b",
+			    "name" : "531-adjusted-r-squared",
+			    "display_name" : "5.3.1 Adjusted R-squared",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122bdd",
+				"551c58303012ce093d122be5",
+				"551c58333012ce093d122d44"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/35c378b0-e0c5-4aef-a746-dcc32634323b.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/35c378b0-e0c5-4aef-a746-dcc32634323b_thumbnail.png"
+			},
+			{
+			    "id" : "18406677-24cd-481d-b897-daf3255e0b70",
+			    "name" : "532-residual-analysis",
+			    "display_name" : "5.3.2 Residual Analysis",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b6f",
+				"551c58313012ce093d122c57",
+				"551c58303012ce093d122bd4"
+			    ]
+			},
+			{
+			    "id" : "bfc50b96-e7bd-4d5b-83b1-7e83c612c3ce",
+			    "name" : "533-testing-for-significance-of-variables",
+			    "display_name" : "5.3.3 Testing for Significance of Variables",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122beb"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/bfc50b96-e7bd-4d5b-83b1-7e83c612c3ce.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/bfc50b96-e7bd-4d5b-83b1-7e83c612c3ce_thumbnail.png"
+			},
+			{
+			    "id" : "f5c05139-7fe4-4e8f-a981-ace6433f10a1",
+			    "name" : "53-summary",
+			    "display_name" : "5.3 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122d0d"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/f5c05139-7fe4-4e8f-a981-ace6433f10a1.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/f5c05139-7fe4-4e8f-a981-ace6433f10a1_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "7a8c56a3-5dc9-43f5-bb94-e623c6760d3b",
+		    "name" : "54-performing-multiple-regression-analysis",
+		    "display_name" : "5.4 Performing Multiple Regression Analysis",
+		    "courseware_containers" : [
+			{
+			    "id" : "12aa134a-c55d-40de-9edb-528c29278c9c",
+			    "name" : "541-multiple-regression-analysis-in-excel",
+			    "display_name" : "5.4.1 Multiple Regression Analysis in Excel",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c2a",
+				"551c58303012ce093d122c04",
+				"551c58333012ce093d122d3c"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/12aa134a-c55d-40de-9edb-528c29278c9c.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/12aa134a-c55d-40de-9edb-528c29278c9c_thumbnail.png"
+			},
+			{
+			    "id" : "8bbd3dda-e05a-463d-b0b9-5c050fd4e4a7",
+			    "name" : "54-summary",
+			    "display_name" : "5.4 Summary",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122ce1"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/8bbd3dda-e05a-463d-b0b9-5c050fd4e4a7.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/8bbd3dda-e05a-463d-b0b9-5c050fd4e4a7_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "9873f485-0ff9-47ad-8aa5-367c33cb1862",
+		    "name" : "55-new-concepts-in-multiple-regression",
+		    "display_name" : "5.5 New Concepts in Multiple Regression",
+		    "courseware_containers" : [
+			{
+			    "id" : "81e18da3-3eb7-475f-9d46-aac66cc0aa5f",
+			    "name" : "551-multicollinearity",
+			    "display_name" : "5.5.1 Multicollinearity",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c79",
+				"551c58323012ce093d122cc4",
+				"551c58323012ce093d122ce2"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/81e18da3-3eb7-475f-9d46-aac66cc0aa5f.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/81e18da3-3eb7-475f-9d46-aac66cc0aa5f_thumbnail.png"
+			},
+			{
+			    "id" : "a69776a9-d310-4a26-8ef3-fef636821ad6",
+			    "name" : "552-dummy-variables",
+			    "display_name" : "5.5.2 Dummy Variables",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122ba2",
+				"551c58303012ce093d122bd2",
+				"551c58323012ce093d122ce3",
+				"551c58303012ce093d122bf0",
+				"551c582f3012ce093d122b6c"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/a69776a9-d310-4a26-8ef3-fef636821ad6.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/a69776a9-d310-4a26-8ef3-fef636821ad6_thumbnail.png"
+			},
+			{
+			    "id" : "771def81-729b-4b42-b8bb-71c2fc633452",
+			    "name" : "553-lagged-variables",
+			    "display_name" : "5.5.3 Lagged Variables",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cda",
+				"551c58313012ce093d122c4a",
+				"551c58313012ce093d122c36"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/771def81-729b-4b42-b8bb-71c2fc633452.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/771def81-729b-4b42-b8bb-71c2fc633452_thumbnail.png"
+			},
+			{
+			    "id" : "dd7e5978-adf1-4f21-be2b-733d9d0771cc",
+			    "name" : "55-summary",
+			    "display_name" : "5.5 Summary",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122bc1"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/dd7e5978-adf1-4f21-be2b-733d9d0771cc.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/dd7e5978-adf1-4f21-be2b-733d9d0771cc_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "0316c5bd-6a0d-4e07-adcc-aa59f80e0891",
+		    "name" : "56-the-caesars-staffing-problem",
+		    "display_name" : "5.6 The Caesars Staffing Problem",
+		    "courseware_containers" : [
+			{
+			    "id" : "91fbd428-d804-4aff-92c3-6d12bfb34e60",
+			    "name" : "561-developing-the-model",
+			    "display_name" : "5.6.1 Developing the Model",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58303012ce093d122be9",
+				"551c58303012ce093d122bdb",
+				"551c58323012ce093d122cac",
+				"551c58303012ce093d122bc4",
+				"551c58323012ce093d122d16"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/91fbd428-d804-4aff-92c3-6d12bfb34e60.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/91fbd428-d804-4aff-92c3-6d12bfb34e60_thumbnail.png"
+			},
+			{
+			    "id" : "717d30c4-baee-4c4c-ade6-72a350efed77",
+			    "name" : "562-analyzing-the-results",
+			    "display_name" : "5.6.2 Analyzing the Results",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c7a",
+				"551c58323012ce093d122d2d",
+				"551c58313012ce093d122c3d",
+				"551c58313012ce093d122c65",
+				"551c58313012ce093d122c98",
+				"551c58333012ce093d122d5e",
+				"551c58323012ce093d122cb9",
+				"551c58333012ce093d122d45",
+				"551c58303012ce093d122b9e"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/717d30c4-baee-4c4c-ade6-72a350efed77.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/717d30c4-baee-4c4c-ade6-72a350efed77_thumbnail.png"
+			},
+			{
+			    "id" : "2e60e308-213a-4076-a252-3f4d1c6c039a",
+			    "name" : "563-improving-the-model",
+			    "display_name" : "5.6.3 Improving the Model",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cf8",
+				"551c58323012ce093d122d25",
+				"551c58303012ce093d122bab",
+				"551c58303012ce093d122c18",
+				"551c58313012ce093d122c29"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/2e60e308-213a-4076-a252-3f4d1c6c039a.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/2e60e308-213a-4076-a252-3f4d1c6c039a_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "25d7248e-7845-4920-ba3a-665df980eb4a",
+		    "name" : "module-5-summary",
+		    "display_name" : "Module 5 Summary",
+		    "courseware_containers" : [
+			{
+			    "id" : "ec3bf714-6e46-40fa-b7c4-38435659492e",
+			    "name" : "module-5-summary",
+			    "display_name" : "Module 5 Summary",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122ca9",
+				"551c58333012ce093d122d5a",
+				"552805f43012ce095be8f1e4"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/ec3bf714-6e46-40fa-b7c4-38435659492e.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/ec3bf714-6e46-40fa-b7c4-38435659492e_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "dd195024-59ee-43bd-bb29-bcb25683a220",
+		    "name" : "module-5-quiz",
+		    "display_name" : "Module 5 Quiz",
+		    "courseware_containers" : [
+			{
+			    "id" : "cf351c03-3617-492e-b023-77d18e27cef5",
+			    "name" : "module-5-quiz",
+			    "display_name" : "Module 5 Quiz",
+			    "title" : "",
+			    "subtitle" : "",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58323012ce093d122cf6"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/cf351c03-3617-492e-b023-77d18e27cef5.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/cf351c03-3617-492e-b023-77d18e27cef5_thumbnail.png"
+			},
+			{
+			    "id" : "3fec2aaf-273e-4995-88b0-eb5350d06ac3",
+			    "name" : "module-5-wrap-up",
+			    "display_name" : "Module 5 Wrap-up",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c582f3012ce093d122b62",
+				"551c58333012ce093d122d62",
+				"551c58313012ce093d122c91"
+			    ],
+			    "image_location" : "courseware/concept/default/551c583c3012ce093d122d68/3fec2aaf-273e-4995-88b0-eb5350d06ac3.png",
+			    "thumbnail_location" : "courseware/concept/default/551c583c3012ce093d122d68/3fec2aaf-273e-4995-88b0-eb5350d06ac3_thumbnail.png",
+			    "title" : "",
+			    "subtitle" : ""
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		},
+		{
+		    "id" : "299b29b7-50fd-4bc7-a3c1-236e21b18a02",
+		    "name" : "closing-remarks",
+		    "display_name" : "Closing Remarks",
+		    "courseware_containers" : [
+			{
+			    "id" : "4dc85609-468c-48b4-a4be-1bc168378db5",
+			    "name" : "closing-remarks",
+			    "display_name" : "Closing Remarks",
+			    "courseware_containers" : [ ],
+			    "teaching_element_instances" : [
+				"551c58313012ce093d122c46",
+				"551c58303012ce093d122bd7",
+				"551c58303012ce093d122bcc",
+				"551c58333012ce093d122d36",
+				"551c58323012ce093d122cb7",
+				"551c58303012ce093d122ba8",
+				"551c58313012ce093d122c42",
+				"551c582f3012ce093d122b90",
+				"551c58313012ce093d122c87",
+				"551c582f3012ce093d122b84"
+			    ],
+			    "image_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/4dc85609-468c-48b4-a4be-1bc168378db5.png",
+			    "thumbnail_location" : "courseware/concept/default/544e680f241b5a35b9db2e3f/4dc85609-468c-48b4-a4be-1bc168378db5_thumbnail.png"
+			}
+		    ],
+		    "teaching_element_instances" : [ ]
+		}
+	    ],
+	    "teaching_element_instances" : [ ]
+	}
+    ],
+    "auto_number" : true,
+    "intro_module" : true,
+    "date_created" : "2015-04-01T20:42:20.905Z",
+    "created_by" : "82",
+    "date_modified" : "2015-05-06T13:34:58.584Z",
+    "modified_by" : "22",
+    "draft_mode" : false,
+    "glossary_enabled" : false,
+    "tei_groups" : [
+	"551c583c3012ce093d122d66",
+	"551c583c3012ce093d122d65",
+	"551c583c3012ce093d122d64",
+	"551c583c3012ce093d122d63",
+	"551c583c3012ce093d122d67"
+    ]
+}

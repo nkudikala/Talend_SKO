@@ -1,0 +1,13 @@
+<crm:Account xmlns:crm="http://demo.talend.com/account/crm">
+    <ID>1</ID>
+    <Company_Name>XYZ INC.</Company_Name>
+    <Industry>Sales</Industry>
+    <Website/>
+    <Address1>3320 TATES CREEK RD</Address1>
+    <Address2>SUITE 204</Address2>
+    <City>LEXINGTON</City>
+    <State>K</State>
+    <Postal_Code>40502</Postal_Code>
+    <Country_ISO3>USA</Country_ISO3>
+    <Phone/>
+</crm:Account>

@@ -17,5 +17,6 @@ Reports,com.oaklandsw.base,order,7
 Sample Data,com.oaklandsw.base,order,6
 Sample Data/multiple_record_input/multi_record_type.txt,com.oaklandsw.transform,repNodeType,173
 Structures,com.oaklandsw.base,order,0
+Structures/Jobs/Job_TDM_json_to_flat_spark/tHMapInput_1/Output1.xml,com.oaklandsw.base,references.0,Structures/Jobs/Job_TDM_json_to_flat_spark/tHMapInput_1/Output1Record.xml,/root/Output1Record
 Structures/multiple_record_input.xml,com.oaklandsw.base,references.0,Sample Data/multiple_record_input/multi_record_type.txt
 Structures/validation_tlogrow_schema.xml,com.oaklandsw.base,references.0,Namespace Containers/validation_tlogrow_schema.xml

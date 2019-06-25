@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_9KSDUJd5EemFT-RTBWw7UA" label="Project1" description="" language="java" technicalLabel="PROJECT1" creationDate="2019-06-25T13:37:49.000-0500" author="_9KSDUZd5EemFT-RTBWw7UA" productVersion="Talend MDM Platform-7.1.1.20181026_1147" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/nkudikala/Talend_SKO&quot;,&quot;login&quot;:&quot;nkudikala&quot;,&quot;passwd&quot;:&quot;XRNlHx/06Kb1vL+QlF2JHw==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" bigData="false">
+    <migrationTask xmi:id="_9NE4oJd5EemFT-RTBWw7UA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_9KSDUZd5EemFT-RTBWw7UA" login="user1@company.com" firstName="User1" lastName="User1" type="MDM" additionnalData="{}"/>
+</xmi:XMI>
